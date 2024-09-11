@@ -1,0 +1,5 @@
+# Enable the RewriteEngine
+RewriteEngine On
+
+# Redirect requests to specific paths to /touch-screen/
+RewriteRule ^assets/(pdf/.*|)$ /touch-screen/ [R=302,L]

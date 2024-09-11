@@ -1,17 +1,7 @@
 <section>
 	<div class="form-project">
-	<div class="project-form-main">
-			<?php include 'project-enquiry-form.php' ?>	
-	</div>
-	<div class="brochure-form-main">
-		<img src="assets/images/brochure-img.jpg">
-		<div class="brochure-text">
-			<h2>Let's drive<br>the future<br>of clean energy,<br>together!</h2>
-		</div>
-		<div class="brochure-link">
-			<a href="#">Download Brochure <i class="fa-solid fa-arrow-down"></i></a>
-		</div>
-	</div>
+		<?php include 'project-enquiry-form.php' ?>	
+	
 	</div>
 </section>
 <section>
