@@ -127,7 +127,7 @@
   </thead>
   <tbody class="table-body">
      <tr>
-     	<td>Wind Clas</td>
+     	<td>Wind Class</td>
      	<td>IECS</td>
      </tr>
       <tr>
@@ -170,7 +170,7 @@
      </tr>
       <tr>
      	<td>Converter Type</td>
-     	<td>Frequency converter for</td>
+     	<td>Frequency converter for DFIG with DC Link</td>
      </tr>
      <tr>
      	<td>Generator</td>
@@ -215,7 +215,7 @@
   </thead>
   <tbody class="table-body">
      <tr>
-     	<td><img src="assets/images/graph.jpg">	<td>
+     	<td><img src="assets/images/graph.jpg"><td>
      </tr>
  </tbody>
 </table>
@@ -232,7 +232,7 @@
   <tbody class="table-body">
      <tr>
      	<td>Nominal Power (kW)</td>
-     	<td>2700 </td>
+     	<td>3100 </td>
      </tr>
       <tr>
      	<td>Cut in wind speed (m/s) </td>
@@ -244,7 +244,7 @@
      </tr>
      <tr>
      	<td>Nominal wind speed (m/s)</td>
-     	<td>12.0</td>
+     	<td>13.0</td>
      </tr>
      <tr>
      	<td>Operating Temperature range (*C)</td>
@@ -265,11 +265,11 @@
   <tbody class="table-body">
      <tr>
      	<td>Diameter (m)</td>
-     	<td>130.0</td>
+     	<td>120.0</td>
      </tr>
       <tr>
      	<td>Rotor Area (m2)</td>
-     	<td>13,273</td>
+     	<td>11,310</td>
      </tr>
      <tr>
      	<td>Power Control</td>
@@ -288,12 +288,12 @@
   </thead>
   <tbody class="table-body">
      <tr>
-     	<td>Wind Clas</td>
-     	<td>IECS</td>
+     	<td>Wind Class</td>
+     	<td>IEC S</td>
      </tr>
       <tr>
      	<td>Type Testing</td>
-     	<td>IECS TEC 61400-22</td>
+     	<td>IEC 61400-22</td>
      </tr>
     
  </tbody>
@@ -311,7 +311,7 @@
      </tr>
       <tr>
      	<td>Height</td>
-     	<td>Up to 140m</td>
+     	<td>140m</td>
      </tr>
  </tbody>
 </table>	
@@ -331,11 +331,11 @@
      </tr>
       <tr>
      	<td>Converter Type</td>
-     	<td>Frequency converter for</td>
+     	<td>Full Power Conversion with IGBT</td>
      </tr>
      <tr>
      	<td>Generator</td>
-     	<td>Double-fed induction generator (DFIG)</td>
+     	<td>Electrically excited synchronous generator.</td>
      </tr>
      <tr>
      	<td>Generator protection class</td>
@@ -353,11 +353,11 @@
   <tbody class="table-body">
      <tr>
      	<td>Length (m)</td>
-     	<td>63.7</td>
+     	<td>58.7</td>
      </tr>
       <tr>
      	<td>Profile Type</td>
-     	<td>SE 63.7</td>
+     	<td>LM 58.7</td>
      </tr>
      <tr>
      	<td>Material</td>
@@ -376,13 +376,15 @@
   </thead>
   <tbody class="table-body">
      <tr>
-     	<td><img src="assets/images/graph.jpg">	<td>
+     	<td><img src="assets/images/graph.jpg"><td>
      </tr>
  </tbody>
 </table>
     	</div>
     </div>
     </div>
+
+
     <div id="tab3" class="tab-pane">
         <div class="table-main">
     	<div class="table-1">
@@ -393,7 +395,7 @@
   <tbody class="table-body">
      <tr>
      	<td>Nominal Power (kW)</td>
-     	<td>2700 </td>
+     	<td>4200 </td>
      </tr>
       <tr>
      	<td>Cut in wind speed (m/s) </td>
@@ -405,11 +407,11 @@
      </tr>
      <tr>
      	<td>Nominal wind speed (m/s)</td>
-     	<td>12.0</td>
+     	<td>11.0</td>
      </tr>
      <tr>
      	<td>Operating Temperature range (*C)</td>
-     	<td>0 to 49</td>
+     	<td>-10 to +45</td>
      </tr>
      <tr>
      	<td>Survival Temperature range (*C)</td>
@@ -426,11 +428,11 @@
   <tbody class="table-body">
      <tr>
      	<td>Diameter (m)</td>
-     	<td>130.0</td>
+     	<td>160.0</td>
      </tr>
       <tr>
      	<td>Rotor Area (m2)</td>
-     	<td>13,273</td>
+     	<td>20,108</td>
      </tr>
      <tr>
      	<td>Power Control</td>
@@ -449,12 +451,12 @@
   </thead>
   <tbody class="table-body">
      <tr>
-     	<td>Wind Clas</td>
-     	<td>IECS</td>
+     	<td>Wind Class</td>
+     	<td>IEC S III C</td>
      </tr>
       <tr>
      	<td>Type Testing</td>
-     	<td>IECS TEC 61400-22</td>
+     	<td>IEC61400-22/IECRE</td>
      </tr>
     
  </tbody>
@@ -472,7 +474,7 @@
      </tr>
       <tr>
      	<td>Height</td>
-     	<td>Up to 140m</td>
+     	<td>140m</td>
      </tr>
  </tbody>
 </table>	
@@ -492,7 +494,7 @@
      </tr>
       <tr>
      	<td>Converter Type</td>
-     	<td>Frequency converter for</td>
+     	<td>Partial converter DFIG</td>
      </tr>
      <tr>
      	<td>Generator</td>
@@ -514,7 +516,7 @@
   <tbody class="table-body">
      <tr>
      	<td>Length (m)</td>
-     	<td>63.7</td>
+     	<td>78.5</td>
      </tr>
       <tr>
      	<td>Profile Type</td>
