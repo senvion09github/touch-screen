@@ -46,7 +46,7 @@
 </div>
 
 		<div class="banner-img">
-			<img src="assets/images/product-banner.jpg">
+			<img src="assets/images/service-banner.jpg">
 		</div>
 	</div>
 	<div class="product-tab">
@@ -57,332 +57,352 @@
 	</div>
 </section>
 
-<section>
-<div class="container">
+<section class="service-tabs">
 <div class="tab-content">
     <div id="tab1" class="tab-pane active">
-       <div class="table-main">
-    	<div class="table-1">
-   <table>
-  <thead>
-     <tr><th colspan="2">Design Data</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td>Nominal Power (kW)</td>
-     	<td>2700 </td>
-     </tr>
-      <tr>
-     	<td>Cut in wind speed (m/s) </td>
-     	<td>3.0</td>
-     </tr>
-     <tr>
-     	<td>Cut out wind speed (m/s) </td>
-     	<td>20.0</td>
-     </tr>
-     <tr>
-     	<td>Nominal wind speed (m/s)</td>
-     	<td>12.0</td>
-     </tr>
-     <tr>
-     	<td>Operating Temperature range (*C)</td>
-     	<td>0 to 49</td>
-     </tr>
-     <tr>
-     	<td>Survival Temperature range (*C)</td>
-     	<td>-20 to 50</td>
-     </tr>
- </tbody>
-</table>
-    	</div>
-    	<div class="table-2">
-    	<table>
-  <thead>
-     <tr><th colspan="2">Rotor</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td>Diameter (m)</td>
-     	<td>130.0</td>
-     </tr>
-      <tr>
-     	<td>Rotor Area (m2)</td>
-     	<td>13,273</td>
-     </tr>
-     <tr>
-     	<td>Power Control</td>
-     	<td>Electrical pitch system</td>
-     </tr>
- </tbody>
-</table>	
-    	</div>
-    </div>
-
-    <div class="table-main">
-    	<div class="table-1">
-   <table>
-  <thead>
-     <tr><th colspan="2">Certification</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td>Wind Clas</td>
-     	<td>IECS</td>
-     </tr>
-      <tr>
-     	<td>Type Testing</td>
-     	<td>IECS TEC 61400-22</td>
-     </tr>
-    
- </tbody>
-</table>
-    	</div>
-    	<div class="table-2">
-    	<table>
-  <thead>
-     <tr><th colspan="2">Tower</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td>Type</td>
-     	<td>Tubular steel tower</td>
-     </tr>
-      <tr>
-     	<td>Height</td>
-     	<td>Up to 140m</td>
-     </tr>
- </tbody>
-</table>	
-    	</div>
-    </div>
-
-    <div class="table-main">
-    	<div class="table-1">
-   <table>
-  <thead>
-     <tr><th colspan="2">Electrical System</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td>Nominal Frequency (Hz)</td>
-     	<td>50</td>
-     </tr>
-      <tr>
-     	<td>Converter Type</td>
-     	<td>Frequency converter for</td>
-     </tr>
-     <tr>
-     	<td>Generator</td>
-     	<td>Double-fed induction generator (DFIG)</td>
-     </tr>
-     <tr>
-     	<td>Generator protection class</td>
-     	<td>IP 54</td>
-     </tr>
-    
- </tbody>
-</table>
-    	</div>
-    	<div class="table-2">
-    	<table>
-  <thead>
-     <tr><th colspan="2">Rotor Blade</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td>Length (m)</td>
-     	<td>63.7</td>
-     </tr>
-      <tr>
-     	<td>Profile Type</td>
-     	<td>SE 63.7</td>
-     </tr>
-     <tr>
-     	<td>Material</td>
-     	<td>GFRP</td>
-     </tr>
- </tbody>
-</table>	
-    	</div>
-    </div>
-
-     <div class="table-main">
-    	<div class="table-3">
-   <table>
-  <thead>
-     <tr><th colspan="2">Electrical System</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td><img src="assets/images/graph.jpg">	<td>
-     </tr>
- </tbody>
-</table>
-    	</div>
-    </div>
+   <div class="we-do">
+   <div class="we-do-text">
+   <h2>What we do</h2>
+   <p>Senvion India takes pride in providing flexible services that are tailored to our customers' specific needs and expectations. We developed FleetPro, a cutting-edge digital platform that enables efficient
+monitoring and control of wind farm fleets. Our digitised platform ensures optimal operations for
+maximum productivity by focusing on performance and machine availability.</p>
+   </div>
 </div>
+      <div class="container">
+      <div class="service-results">
+         <h2>Service Results</h2>
+            
+         <div class="result-table">
+            <table>
+               <thead>
+             <tr>
+               <th>Maintenance</th>
+               <th>Quantity</th>
+               <th>MW</th>
+               <th>Comment</th>  
+             </tr>
+          </thead>
+          <tbody>
+             <tr>
+                <td>Total combined capacity under service</td>
+                <td>297</td>
+                <td>723.37</td>
+                <td>As of 15-May-2024</td>
+             </tr>
+              <tr>
+                <td>Service technicians</td>
+                <td>129</td>
+                <td></td>
+                <td>As of 15-May-2024</td>
+             </tr>
+             <tr>
+                <td>Markets with service presence*</td>
+                <td>26</td>
+                <td></td>
+                <td>26 sites located in 4 states of India</td>
+             </tr>
+             <tr>
+                <td>Lost Time Injuries Rate (LTIR)</td>
+                <td>0</td>
+                <td></td>
+                <td>As of 15-May-2024</td>
+
+             </tr>
+             <tr>
+                <td>Lost Production Factor (LPF)</td>
+                <td><2</td>
+                <td></td>
+                <td>LPF is less than 2, as of 15-May-2024</td>
+             </tr>
+          </tbody>
+            </table>
+         </div>
+
+      </div>
+         </div>
+         <hr>
+         <div class="container">
+            <div class="service-accordian">
+               <h6>Services</h6>
+                  <h2>Operations and Maintenance</h2>
+
+
+               <div class="accordian-main">
+                  <div class="accordion09" id="accordion09">
+
+                    <!--accordion-->
+                    <div class="collapsible-tabs__wrapper">
+                        <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                                Experience and Capabilities
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                 <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                             </div>
+                            </div>
+                        </div>
+                        
+                         <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                            Service philosophy
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                   <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                            Turbine Control Center (TCC)
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                   <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                            Repair Solutions
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                   <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                            QHSE Initiatives
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                   <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                            Asset O/P Strategy
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                   <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                            Senvion's exclusive SCADA portal, FleetPro®:
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                   <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+               </div>
+            </div>
+         </div>
+    	</div>
+
     <div id="tab2" class="tab-pane">
-          <div class="table-main">
-    	<div class="table-1">
-   <table>
-  <thead>
-     <tr><th colspan="2">Design Data</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td>Nominal Power (kW)</td>
-     	<td>2700 </td>
-     </tr>
-      <tr>
-     	<td>Cut in wind speed (m/s) </td>
-     	<td>3.0</td>
-     </tr>
-     <tr>
-     	<td>Cut out wind speed (m/s) </td>
-     	<td>20.0</td>
-     </tr>
-     <tr>
-     	<td>Nominal wind speed (m/s)</td>
-     	<td>12.0</td>
-     </tr>
-     <tr>
-     	<td>Operating Temperature range (*C)</td>
-     	<td>0 to 49</td>
-     </tr>
-     <tr>
-     	<td>Survival Temperature range (*C)</td>
-     	<td>-20 to 50</td>
-     </tr>
- </tbody>
-</table>
-    	</div>
-    	<div class="table-2">
-    	<table>
-  <thead>
-     <tr><th colspan="2">Rotor</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td>Diameter (m)</td>
-     	<td>130.0</td>
-     </tr>
-      <tr>
-     	<td>Rotor Area (m2)</td>
-     	<td>13,273</td>
-     </tr>
-     <tr>
-     	<td>Power Control</td>
-     	<td>Electrical pitch system</td>
-     </tr>
- </tbody>
-</table>	
-    	</div>
-    </div>
-
-    <div class="table-main">
-    	<div class="table-1">
-   <table>
-  <thead>
-     <tr><th colspan="2">Certification</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td>Wind Clas</td>
-     	<td>IECS</td>
-     </tr>
-      <tr>
-     	<td>Type Testing</td>
-     	<td>IECS TEC 61400-22</td>
-     </tr>
-    
- </tbody>
-</table>
-    	</div>
-    	<div class="table-2">
-    	<table>
-  <thead>
-     <tr><th colspan="2">Tower</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td>Type</td>
-     	<td>Tubular steel tower</td>
-     </tr>
-      <tr>
-     	<td>Height</td>
-     	<td>Up to 140m</td>
-     </tr>
- </tbody>
-</table>	
-    	</div>
-    </div>
-
-    <div class="table-main">
-    	<div class="table-1">
-   <table>
-  <thead>
-     <tr><th colspan="2">Electrical System</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td>Nominal Frequency (Hz)</td>
-     	<td>50</td>
-     </tr>
-      <tr>
-     	<td>Converter Type</td>
-     	<td>Frequency converter for</td>
-     </tr>
-     <tr>
-     	<td>Generator</td>
-     	<td>Double-fed induction generator (DFIG)</td>
-     </tr>
-     <tr>
-     	<td>Generator protection class</td>
-     	<td>IP 54</td>
-     </tr>
-    
- </tbody>
-</table>
-    	</div>
-    	<div class="table-2">
-    	<table>
-  <thead>
-     <tr><th colspan="2">Rotor Blade</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td>Length (m)</td>
-     	<td>63.7</td>
-     </tr>
-      <tr>
-     	<td>Profile Type</td>
-     	<td>SE 63.7</td>
-     </tr>
-     <tr>
-     	<td>Material</td>
-     	<td>GFRP</td>
-     </tr>
- </tbody>
-</table>	
-    	</div>
-    </div>
-
-     <div class="table-main">
-    	<div class="table-3">
-   <table>
-  <thead>
-     <tr><th colspan="2">Electrical System</th></tr>
-  </thead>
-  <tbody class="table-body">
-     <tr>
-     	<td><img src="assets/images/graph.jpg">	<td>
-     </tr>
- </tbody>
-</table>
-    	</div>
-    </div>
-    </div>
+          <div class="we-do">
+   <div class="we-do-text">
+   <h2>What we do</h2>
+   <p>Fleetpro is a cutting-edge Software-as-a-Service (SaaS) solution that provides intelligent asset management capabilities to improve renewable asset performance and health. This comprehensive platform enables the seamless integration of multiple renewable asset platforms and protocols. Fleetpro's comprehensive toolkit of analytical Key Performance Indicators (KPIs) and advanced algorithms enables asset managers to make informed decisions and optimise asset performance. Fleetpro, which is built on a highly scalable architecture, ensures efficient throughput while performing complex analytical tasks with precision and quality.</p>
+   </div>
 </div>
+      <div class="container">
+      <div class="service-results">
+         <h2>Service Results</h2>
+            
+         <div class="result-table">
+            <table>
+               <thead>
+             <tr>
+               <th>Maintenance</th>
+               <th>Quantity</th>
+               <th>MW</th>
+               <th>Comment</th>  
+             </tr>
+          </thead>
+          <tbody>
+             <tr>
+                <td>Total combined capacity under service</td>
+                <td>297</td>
+                <td>723.37</td>
+                <td>As of 15-May-2024</td>
+             </tr>
+              <tr>
+                <td>Service technicians</td>
+                <td>129</td>
+                <td></td>
+                <td>As of 15-May-2024</td>
+             </tr>
+             <tr>
+                <td>Markets with service presence*</td>
+                <td>26</td>
+                <td></td>
+                <td>26 sites located in 4 states of India</td>
+             </tr>
+             <tr>
+                <td>Lost Time Injuries Rate (LTIR)</td>
+                <td>0</td>
+                <td></td>
+                <td>As of 15-May-2024</td>
+
+             </tr>
+             <tr>
+                <td>Lost Production Factor (LPF)</td>
+                <td><2</td>
+                <td></td>
+                <td>LPF is less than 2, as of 15-May-2024</td>
+             </tr>
+          </tbody>
+            </table>
+         </div>
+
+      </div>
+         </div>
+         <hr>
+         <div class="container">
+            <div class="service-accordian">
+               <h6>Services</h6>
+                  <h2>Operations and Maintenance</h2>
+
+
+               <div class="accordian-main">
+                  <div class="accordion09" id="accordion09">
+
+                    <!--accordion-->
+                    <div class="collapsible-tabs__wrapper">
+                        <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                                Experience and Capabilities
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                 <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                             </div>
+                            </div>
+                        </div>
+                        
+                         <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                            Service philosophy
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                   <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                            Turbine Control Center (TCC)
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                   <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                            Repair Solutions
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                   <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                            QHSE Initiatives
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                   <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                            Asset O/P Strategy
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                   <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="collapsibles-wrapper">
+                            <button type="button" class="collapsible-trigger-btn">
+                            Senvion's exclusive SCADA portal, FleetPro®:
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content__inner">
+                                   <div class="accordion-content">
+                                 <p>Senvion India has a team of over 90 personnel dedicated to Operations and Maintenance (O&M). Our team's expertise and capabilities enable us to deliver exceptional services to our clients. Our team provides round-the-clock support for Wind Farm Power Projects across various states in India. We cater to esteemed retail customers as well as market-leading Independent Power Producers (IPPs). With our expertise and commitment, we ensure the smooth functioning and optimal performance of these projects. Senvion India's operations and maintenance (O&M) portfolio in India currently exceeds 400 MW, and our service team is fully prepared to handle the O&M responsibilities for the additional 600 MW that is projected to be added in the fiscal year 2023-2024. Our service fleet is strategically spread across four states in India. These states include Maharashtra, Tamil Nadu, Karnataka, and Gujarat. With our wide geographical coverage, we can efficiently serve our customers in these regions.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+               </div>
+            </div>
+         </div>
+
+    </div>
 </div>
 </section>
 

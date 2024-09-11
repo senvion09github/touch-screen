@@ -216,4 +216,94 @@ table tbody tr td{width:5%;font-size:16px;}
 .table-body{margin:30px 0px 0px;display:inline-block;width:100%;}
 .table-3{width:100%;padding-bottom:70px;}
 .table-3 tr{border:none;}
+
 /*****Product Page******/
+
+
+/******Services*******/
+
+.we-do{background:url('./../images/what-we-do.jpg');height:60vh;padding:0px 75px;background-size:cover;background-repeat: no-repeat;width: 100%;display:flex;align-items: center;}
+.service-tabs .tab-content .tab-pane{padding:0;border-bottom:1px solid var(--black);}
+.we-do-text{width:60%;color:var( --white);}
+.we-do-text h2{color:var(--white)!important;}
+.service-accordian h6{font-weight:700;font-size:18px;}
+.we-do-text p{padding:15px 0px 0px;}
+.service-results{padding:50px 0px;}
+.service-results h2{padding:15px 0px 30px;}
+.result-table thead{background:none;color:var(--black);border-bottom:1px solid var(--black);}
+.result-table thead th{font-size:18px;text-align:left;padding:15px 30px;}
+.result-table tbody tr td{padding:5px 30px;}
+.service-accordian{padding:50px 0px;}
+.accordian-main .collapsibles-wrapper .collapsible-trigger-btn::before {
+    content: "+";
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    top:0;
+    bottom:0;
+    background: none;
+    transition: all 0.3s ease;
+}
+
+.accordian-main .collapsibles-wrapper.collapsible-tab__open .collapsible-trigger-btn::before {
+    content: "-";
+}
+
+.collapsibles-wrapper .collapsible-trigger-btn {
+  background: 0 0;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--black);
+  position: relative;
+  color:var(--blue);
+  transition: .8s
+}
+
+.collapsible-trigger-btn img {
+  margin-right: 15px
+}
+
+.collaborate,
+.collapsible-tabs__wrapper,
+.single-video {
+  margin: 50px 0 0
+}
+
+.collapsibles-wrapper .collapsible-trigger-btn::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  background-image: url('../images/project/accordian-down-arrow.png');
+  background-repeat: no-repeat;
+  transition: transform .8s;
+  display: block
+}
+
+.collapsibles-wrapper.collapsible-tab__open .collapsible-trigger-btn:before {
+  background-image: url('../images/project/accordian-up-arrow.png')
+}
+
+.collapsibles-wrapper .collapsible-content__inner p {
+  font-size: 14px;
+  line-height: 24px
+}
+
+.collapsibles-wrapper .collapsible-content {
+  transition: .8s;
+  overflow: hidden;
+  max-height: 0;
+  position: relative
+}
+
+.accordion-content p{padding-bottom:30px;}

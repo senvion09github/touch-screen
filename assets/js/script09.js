@@ -42,3 +42,20 @@ $(document).ready(function() {
         $(target).addClass('active');
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll(".collapsible-trigger-btn").forEach(s => {
+        s.addEventListener("click", function() {
+            let s = this.parentElement,
+                e = s.classList.contains("collapsible-tab__open");
+            if (document.querySelectorAll(".collapsibles-wrapper").forEach(s => {
+                    s.classList.remove("collapsible-tab__open"), s.querySelector(".collapsible-content").style.maxHeight = null
+                }), !e) {
+                s.classList.add("collapsible-tab__open");
+                let o = s.querySelector(".collapsible-content");
+                o.style.maxHeight = o.scrollHeight + "px"
+            }
+        })
+    })
+})
