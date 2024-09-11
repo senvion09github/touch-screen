@@ -20,6 +20,8 @@
 			<div class="form-group">
 			<textarea class="form-control textarea" placeholder="Message:" type="text" name="message"></textarea>
 			</div>
+				</div>
+			<div class="submit-btn">
 			<button id="brochure_downloadfrm-submit" class="submit brochure_downloadfrm-submit enquire-now" type="submit">Submit</button>
 		</div>
 	</form>
@@ -30,7 +32,6 @@
 		<h2>Let's drive<br>the future<br>of clean energy,<br>together!</h2>
 	</div>
 	<div class="brochure-link">
-		<a href="#">Download Brochure <i class="fa-solid fa-arrow-down"></i></a>
+		<a href="serve_pdf.php" id="lnk_download_brochure" style="display:block;" target="_blank">Download Brochure <i class="fa-solid fa-arrow-down"></i></a>
 	</div>
 </div>
-<a href="serve_pdf.php" id="lnk_download_brochure" style="display:block;" target="_blank">View Brochure</a>
