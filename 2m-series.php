@@ -51,10 +51,10 @@
 	</div>
 	<div class="product-tab">
 		<ul class="tab-list">
-        <li class="active"><a href="#tab1">2.7M130*</a></li>
-        <li><a href="#tab2">3.1M130*</a></li>
-        <li><a href="#tab3">4.2M160*</a></li>
-    </ul>
+    <li class="tab active" data-target="2m-series.php"><a href="2m-series.php">2.7M130*</a></li>
+    <li class="tab" data-target="3m-series.php"><a href="3m-series.php">3.1M130*</a></li>
+    <li class="tab" data-target="4m-series.php"><a href="4m-series.php">4.2M160*</a></li>
+</ul>
 	</div>
 </section>
 

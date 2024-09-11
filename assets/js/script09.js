@@ -59,3 +59,23 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     })
 })
+
+
+$(document).ready(function() {
+    $('.tab-list li').on('click', function(e) {
+        e.preventDefault();
+        $('.tab-list li').removeClass('active');
+        $(this).addClass('active');
+        var targetPage = $(this).find('a').attr('href');
+        $.ajax({
+            url: targetPage,
+            success: function(response) {
+                $('.tab-content').html($(response).find('.tab-content').html());
+            },
+            error: function() {
+                alert('Failed to load content');
+            }
+        });
+    });
+});
+

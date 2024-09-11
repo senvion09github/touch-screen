@@ -30,16 +30,16 @@
         <li class="dropdown"><a href="#"><span>Products</span> <i class="fa-solid fa-chevron-down"></i></a>
 
        <ul>
-              <li><a href="#">2.7M130</a></li>
-            <li><a href="#">3.1M130</a></li>
-            <li><a href="#">4.2M160</a></li>
+              <li><a href="2m-series.php">2.7M130</a></li>
+            <li><a href="3m-series.php">3.1M130</a></li>
+            <li><a href="4m-series.php">4.2M160</a></li>
             
 
           </ul>
 
         </li>
 
-          <li class="dropdown"><a href="#"><span>Services</span> <i class="fa-solid fa-chevron-down"></i></a>
+          <li class="dropdown"><a href="services.php"><span>Services</span> <i class="fa-solid fa-chevron-down"></i></a>
 
        <ul>
 
