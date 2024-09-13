@@ -87,7 +87,7 @@ $('#brochure_downloadfrm').validate({
         $button.attr('disabled',true);
 
         grecaptcha.ready(function() {
-          grecaptcha.execute('6LfrpRYqAAAAAFboLVF_GR6QM2qEZJn_hykGUZcV', {action: 'submit'}).then(function(token) {
+          grecaptcha.execute('6LciE0IqAAAAANSrZkBw6KTAWupQmRStrwnH60oQ', {action: 'submit'}).then(function(token) {
 
             formData.append('token', token);
 
@@ -105,7 +105,171 @@ $('#brochure_downloadfrm').validate({
                             $('form input, form textarea, form select').val('');
                             $('.brochure_downloadfrm-response').html('<span class="success">'+res.message+'</span>');
                             $.fancybox.close();
-                            $("#lnk_download_brochure")[0].click();
+                            //$("#lnk_download_brochure")[0].click();
+                            //window.location.replace("https://www.vihangahead.com/campaign-2024/thank_you.php");
+                        }
+                        else{
+                            $('.brochure_downloadfrm-response').html('<span class="error">'+res.message+'</span>');
+                        }
+                        $button.attr('disabled',false);
+                        $button.text('Submit');
+                        // grecaptcha.reset();
+                    },
+                    error: function(error, textStatus, errorMessage) {
+                        console.log(error);
+                        // grecaptcha.reset();
+                        alert('Request could not be completed');
+                        $button.attr('disabled',false);
+                        $button.text('Submit');
+                    }             
+               });
+         }); //end grecaptcha execute 
+        }); //end grecaptcha 
+    }
+
+});
+
+$('#brochure_view_form').validate({
+    ignore: [],
+    // debug: true,
+    rules: {
+        name: {required: true,lettersonly:true,maxlength: 100},
+        mobile: {required: true, mobile: true},
+        email: {required: true, validateEmail: true},
+    },
+    messages: {
+        // agree: {
+        //     required: "Please agree to terms and conditions",
+        // }
+    },
+    errorElement: 'span',
+    errorPlacement: function (error, element) {
+      error.addClass('invalid-feedback'); // Add 'invalid-feedback' class for styling
+      error.css('color', 'red'); // Set text color to red
+      element.closest('.form-group').append(error);
+    },  
+    highlight: function (element, errorClass, validClass) {
+      $(element).addClass('is-invalid');
+    },
+    unhighlight: function (element, errorClass, validClass) {
+      $(element).removeClass('is-invalid');
+    },
+
+    submitHandler: function(form) {
+       var formData = new FormData(form);
+
+        $button = $("#brochure_view_c_frm-submit");
+        $button.text('Processing...');
+
+        $('.brochure_downloadfrm-response').html('');
+        $button.attr('disabled',true);
+
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6LciE0IqAAAAANSrZkBw6KTAWupQmRStrwnH60oQ', {action: 'submit'}).then(function(token) {
+
+            formData.append('token', token);
+
+                $.ajax({
+                  type: 'post',
+                    url: $(form).attr('action'),
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        console.log(response);
+                        res= JSON.parse(response);
+                        console.log(res);
+                        if(res.status == 1){
+                            $('form input, form textarea, form select').val('');
+                            $('.brochure_downloadfrm-response').html('<span class="success">'+res.message+'</span>');
+                            $.fancybox.close();
+                            if (res.data == '2.7M130') {
+                                $("#lnk_download_brochure1")[0].click();
+                            }else if(res.data == '3.1M130'){
+                                $("#lnk_download_brochure2")[0].click();
+                            }else if(res.data == '4.2M130'){
+                                $("#lnk_download_brochure3")[0].click();
+                            }
+                            location.reload();
+                            //window.location.replace("https://www.vihangahead.com/campaign-2024/thank_you.php");
+                        }
+                        else{
+                            $('.brochure_downloadfrm-response').html('<span class="error">'+res.message+'</span>');
+                        }
+                        $button.attr('disabled',false);
+                        $button.text('Submit');
+                        // grecaptcha.reset();
+                    },
+                    error: function(error, textStatus, errorMessage) {
+                        console.log(error);
+                        // grecaptcha.reset();
+                        alert('Request could not be completed');
+                        $button.attr('disabled',false);
+                        $button.text('Submit');
+                    }             
+               });
+         }); //end grecaptcha execute 
+        }); //end grecaptcha 
+    }
+
+});
+
+$('#brochure_c_view_form').validate({
+    ignore: [],
+    // debug: true,
+    rules: {
+        name: {required: true,lettersonly:true,maxlength: 100},
+        mobile: {required: true, mobile: true},
+        email: {required: true, validateEmail: true},
+    },
+    messages: {
+        // agree: {
+        //     required: "Please agree to terms and conditions",
+        // }
+    },
+    errorElement: 'span',
+    errorPlacement: function (error, element) {
+      error.addClass('invalid-feedback'); // Add 'invalid-feedback' class for styling
+      error.css('color', 'red'); // Set text color to red
+      element.closest('.form-group').append(error);
+    },  
+    highlight: function (element, errorClass, validClass) {
+      $(element).addClass('is-invalid');
+    },
+    unhighlight: function (element, errorClass, validClass) {
+      $(element).removeClass('is-invalid');
+    },
+
+    submitHandler: function(form) {
+       var formData = new FormData(form);
+
+        $button = $("#brochure_downloadfrm-submit");
+        $button.text('Processing...');
+
+        $('.brochure_downloadfrm-response').html('');
+        $button.attr('disabled',true);
+
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6LciE0IqAAAAANSrZkBw6KTAWupQmRStrwnH60oQ', {action: 'submit'}).then(function(token) {
+
+            formData.append('token', token);
+
+                $.ajax({
+                  type: 'post',
+                    url: $(form).attr('action'),
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        console.log(response);
+                        res= JSON.parse(response);
+                        console.log(res);
+                        if(res.status == 1){
+                            $('form input, form textarea, form select').val('');
+                            $('.brochure_downloadfrm-response').html('<span class="success">'+res.message+'</span>');
+                            $.fancybox.close();
+                            $("#lnk_download_brochure_c")[0].click();
+                            location.reload();
                             //window.location.replace("https://www.vihangahead.com/campaign-2024/thank_you.php");
                         }
                         else{

@@ -41,7 +41,7 @@
             <h1 data-aos="fade-down" data-aos-delay="200">The Senvion 4.XM Series</h1>
             <p data-aos="fade-down" data-aos-delay="300">Introducing our new 4XM wind turbine platform, which is optimised for higher yields at low-wind sites with hub heights of up to 140 metres. Our innovative design uses off-the-shelf parts from top suppliers and local supply chain integration. With an oprating temperature range of -10 to +45°C, our platform meets all the Indian grid code requirements. Trust the proven technology of Senvion to power your wind energy investment.</p>
             <div class="banner-btn">
-               <a href="assets/images/product-brochure.pdf">Download Brochure</a>
+               <a data-fancybox data-src="#brochure-form" href="javascript:;">Download Brochure</a>
             </div>
 
          </div>
@@ -163,9 +163,9 @@
    </div>
 </section>
 
-<div class="brochure-main" style="display: none;" id="corporate-brochure-form">
+<div class="brochure-main" style="display: none;" id="brochure-form">
     <div class="fancybox-content">
-      <?php include 'corporate-brochure-form.php' ?>
+      <?php include 'brochure-form.php' ?>
     </div>
 </div>
 

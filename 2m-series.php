@@ -161,9 +161,9 @@
    </div>
 </section>
 
-<div class="brochure-main" style="display: none;" id="corporate-brochure-form">
+<div class="brochure-main" style="display: none;" id="brochure-form">
     <div class="fancybox-content">
-      <?php include 'corporate-brochure-form.php' ?>
+      <?php include 'brochure-form.php' ?>
     </div>
 </div>
 

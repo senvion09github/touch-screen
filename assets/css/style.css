@@ -216,7 +216,7 @@ justify-content: center;}
 .copyrights-main{display:flex;justify-content:space-between;background:var(--white);padding:20px 0px;align-items:center;}
 .copyrights-main h5, p{margin:0;font-size:18px;}
 .copyrights-main a{text-decoration:none;padding-left:5px;color:var(--black);}
-.brochure-main{width:400px;}
+/* .brochure-main{width:400px;} */
 .brochure-main .fancybox-content{padding:10px 0px;width:100%;}
 .form-group-main .form-group{margin:15px 0px;}
 .brochure-main .submit-btn{display: flex;justify-content:center;}
