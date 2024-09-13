@@ -1,4 +1,4 @@
-<section>
+<section id="contact">
 	<div class="form-project">
 		<?php include 'project-enquiry-form.php' ?>	
 	

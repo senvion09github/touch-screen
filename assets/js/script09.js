@@ -1,6 +1,6 @@
 jQuery(function(s) {
     var e = window.location.href,
-        o = s(".main-nav ul li a, .navMenu-nav li a, .one-page-nav ul li a");
+        o = s(".main-nav ul li a, .header-nav li a");
     o.each(function() {
         this.href === e && (s(this).addClass("active"), s(this).closest("li").addClass("active"))
     }), o.on("click", function() {
@@ -24,25 +24,6 @@ $(window).scroll(function() {
 });
 
 
-$(document).ready(function() {
-    $('.product-tab .tab-list li a').click(function(e) {
-        e.preventDefault();
-
-        // Remove active class from all tabs
-        $('.product-tab .tab-list li').removeClass('active');
-        
-        // Add active class to clicked tab
-        $(this).parent().addClass('active');
-
-        // Hide all tab content
-        $('.tab-content .tab-pane').removeClass('active');
-        
-        // Show corresponding tab content
-        var target = $(this).attr('href');
-        $(target).addClass('active');
-    });
-});
-
 
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll(".collapsible-trigger-btn").forEach(s => {
@@ -60,22 +41,34 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 })
 
+document.addEventListener('DOMContentLoaded', (event) => {
+            console.log('DOM fully loaded and parsed');
+            document.querySelectorAll('.tab-link').forEach(link => {
+                link.addEventListener('click', function(event) {
+                    console.log('Link clicked:', this.href);
+                    document.querySelectorAll('.tab-link').forEach(tab => tab.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
 
 $(document).ready(function() {
-    $('.tab-list li').on('click', function(e) {
-        e.preventDefault();
-        $('.tab-list li').removeClass('active');
-        $(this).addClass('active');
-        var targetPage = $(this).find('a').attr('href');
-        $.ajax({
-            url: targetPage,
-            success: function(response) {
-                $('.tab-content').html($(response).find('.tab-content').html());
-            },
-            error: function() {
-                alert('Failed to load content');
-            }
-        });
+    // Cache the original offset of the .stickynav element
+    var productTabOffset = $(".stickynav").offset().top - 70; // Adjust based on your top margin or header
+
+    // On scroll event
+    $(window).scroll(function() {
+        var scrollTop = $(window).scrollTop();
+        var isFixed = $(".stickynav").hasClass("fixed-header1");
+
+        // Apply the fixed-header1 class when scrolling past the cached offset value
+        if (scrollTop > productTabOffset && !isFixed) {
+            $(".stickynav").addClass("fixed-header1");
+        } 
+        // Remove the fixed-header1 class when scrolling back above the cached offset value
+        else if (scrollTop <= productTabOffset && isFixed) {
+            $(".stickynav").removeClass("fixed-header1");
+        }
     });
 });
 

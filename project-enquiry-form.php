@@ -32,6 +32,16 @@
 		<h2>Let's drive<br>the future<br>of clean energy,<br>together!</h2>
 	</div>
 	<div class="brochure-link">
-		<a href="serve_pdf.php" id="lnk_download_brochure" style="display:block;" target="_blank">Download Brochure <i class="fa-solid fa-arrow-down"></i></a>
+		<a data-fancybox data-src="#brochure-form" href="javascript:;">
+  Download Brochure <i class="fa-solid fa-arrow-down"></i>
+</a>
 	</div>
+</div>
+
+
+
+<div class="brochure-main" style="display: none;" id="brochure-form">
+    <div class="fancybox-content">
+      <?php include 'brochure-form.php' ?>
+    </div>
 </div>
