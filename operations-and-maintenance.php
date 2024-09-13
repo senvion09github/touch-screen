@@ -51,8 +51,8 @@
 	</div>
 	<div class="product-tab stickynav">
 		<ul class="tab-list">
-        <li class="active"><a href="services.php">O&M</a></li>
-        <li><a href="fleetpro.php">FleetPro</a></li>
+        <li class="active"><a href="operations-and-maintenance.php">O&M</a></li>
+        <li><a href="fleetpro.php">FleetPro®</a></li>
     </ul>
 	</div>
 </section>

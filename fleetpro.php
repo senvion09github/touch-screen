@@ -51,8 +51,8 @@
 	</div>
 	<div class="product-tab stickynav">
 		<ul class="tab-list">
-        <li><a href="services.php">O&M</a></li>
-        <li class="active"><a href="fleetpro.php">FleetPro</a></li>
+        <li><a href="operations-and-maintenance.php">O&M</a></li>
+        <li class="active"><a href="fleetpro.php">FleetPro®</a></li>
     </ul>
 	</div>
 </section>
@@ -115,7 +115,7 @@
         </div>
         <div class="graph-content">
             <p data-aos="fade-down" data-aos-delay="200">Along with the Asset Management software the site team is backed by experienced In house expert Service professionals in Mumbai and Engineering team in Bengaluru to support the O & M operations in delivering best in class and Quality Services to customers.</p>
-            <p data-aos="fade-down" data-aos-delay="300">For a free demo: contact us – <a href="mailto:info@senvion.in">info@senvion.in</a> | <a href="https://fleetpro.senvion.in/" target="_blank">Click here to Login</a>
+            <p data-aos="fade-down" data-aos-delay="300">For a free demo: contact us – <a href="mailto:info@senvion.in">info@senvion.in</a>
 </p>
         </div>
     </div>

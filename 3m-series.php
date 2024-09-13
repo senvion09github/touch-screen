@@ -72,8 +72,8 @@
                   <tr><td>Cut in wind speed (m/s)</td><td>3.0</td></tr>
                   <tr><td>Cut out wind speed (m/s)</td><td>20.0</td></tr>
                   <tr><td>Nominal wind speed (m/s)</td><td>13.0</td></tr>
-                  <tr><td>Operating Temperature range (*C)</td><td>0 to 49</td></tr>
-                  <tr><td>Survival Temperature range (*C)</td><td>-20 to 50</td></tr>
+                  <tr><td>Operating Temperature range (°C)</td><td>0 to 49</td></tr>
+                  <tr><td>Survival Temperature range (°C)</td><td>-20 to 50</td></tr>
                </tbody>
             </table>
          </div>
@@ -84,7 +84,7 @@
                </thead>
                <tbody class="table-body">
                   <tr><td>Diameter (m)</td><td>120.0</td></tr>
-                  <tr><td>Rotor Area (m2)</td><td>11,310</td></tr>
+                  <tr><td>Rotor Area (m<sup>2</sup>)</td><td>11,310</td></tr>
                   <tr><td>Power Control</td><td>Electrical pitch system</td></tr>
                </tbody>
             </table>
@@ -123,7 +123,7 @@
                   <tr><th colspan="2">Electrical System</th></tr>
                </thead>
                <tbody class="table-body">
-                  <tr><td>Nominal Frequency (Hz)</td><td>50</td></tr>
+                  <tr><td>Nominal Frequency (H<sub>z</sub>)</td><td>50</td></tr>
                   <tr><td>Converter Type</td><td>Full Power Conversion with IGBT</td></tr>
                   <tr><td>Generator</td><td>Electrically excited synchronous generator</td></tr>
                   <tr><td>Generator protection class</td><td>IP 54</td></tr>
