@@ -1,8 +1,20 @@
 <?php
 session_start();
 
+if ($_GET['pdf'] == 1) {
+    $filePath = 'assets/pdf/2.7-brochure.pdf'; // Adjust the path as needed
+    $file_name = "2.7-brochure.pdf";
+}elseif ($_GET['pdf'] == 2) {
+    $filePath = 'assets/pdf/3.1-brochure.pdf'; // Adjust the path as needed
+    $file_name = "3.1-brochure.pdf";
+}elseif ($_GET['pdf'] == 3) {
+    $filePath = 'assets/pdf/4.2-brochure.pdf'; // Adjust the path as needed
+    $file_name = "4.2-brochure.pdf";
+}elseif ($_GET['pdf'] == 4) {
+    $filePath = 'assets/pdf/Senvion Brochure Final.pdf'; // Adjust the path as needed
+    $file_name = "Senvion Brochure Final.pdf";
+}
 // Path to the protected PDF file
-$filePath = 'assets/pdf/sample.pdf'; // Adjust the path as needed
 
 // Check if the form was submitted
 if (isset($_SESSION['form_submitted']) && $_SESSION['form_submitted'] === true) {
@@ -10,7 +22,7 @@ if (isset($_SESSION['form_submitted']) && $_SESSION['form_submitted'] === true) 
     if (file_exists($filePath)) {
         // Send appropriate headers to serve the PDF file
         header('Content-Type: application/pdf');
-        header('Content-Disposition: inline; filename="sample.pdf"');
+        header('Content-Disposition: inline; filename="'.$file_name.'"');
         readfile($filePath);
         
         // Unset the session variable to prevent further access

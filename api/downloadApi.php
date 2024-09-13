@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if ($token) {
       //validate google recaptcha
       $recaptcha_url = "https://www.google.com/recaptcha/api/siteverify";
-      $recaptcha_secret = '6LfrpRYqAAAAAL7YZ61AmKfB-yebONnmPtS1SrGc';
+      $recaptcha_secret = '6LciE0IqAAAAADpLt3NMBUwBnlwVJeMM-DpMpJGL';
       $recaptcha_response = $token;
 
       // Make and decode POST request:
@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
   // save entries
-  $stmt = $conn->prepare("INSERT INTO `download_brochure` ( `name`, `email`, `mobile`, `company_name`, `message`, `status`, `created_at`) VALUES (?,?,?,?,?,?,?)");
+  $stmt = $conn->prepare("INSERT INTO `contact_us` ( `name`, `email`, `mobile`, `company_name`, `message`, `status`, `created_at`) VALUES (?,?,?,?,?,?,?)");
   $stmt->bind_param("sssssss", $name, $email, $mobile, $company_name, $message, $status, $created_at);
 
 

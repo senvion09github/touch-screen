@@ -2,7 +2,7 @@
 include 'config.php';
 
 // Fetch data from the local database
-$sql = "SELECT * FROM download_brochure WHERE status = 0"; // Example query
+$sql = "SELECT * FROM contact_us WHERE status = 0"; // Example query
 $result = $conn->query($sql);
 
 // Check if there are results
@@ -24,7 +24,7 @@ if ($result->num_rows > 0) {
     }
 
     // Live server API URL
-    $apiUrl = 'https://www.agency09.in/touchScreenApi/enquiryApi.php'; // Replace with your actual live server URL
+    $apiUrl = 'https://www.senvion.in/touchScreenApi/enquiryApi.php'; // Replace with your actual live server URL
 
     // Initialize cURL session
     $ch = curl_init($apiUrl);
@@ -50,7 +50,7 @@ if ($result->num_rows > 0) {
         echo 'Response from server: ' . $response;
         
         // Assuming the response contains a success message or ID list, update status
-        $updateStmt = $conn->prepare("UPDATE download_brochure SET status = 1 WHERE id = ?");
+        $updateStmt = $conn->prepare("UPDATE contact_us SET status = 1 WHERE id = ?");
         foreach ($allData as $data) {
             $updateStmt->bind_param("i", $data['id']);
             $updateStmt->execute();

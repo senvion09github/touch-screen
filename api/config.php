@@ -27,8 +27,8 @@ if ($conn->connect_error) {
 } 
 
 $admin_email = 'tech.agency09@gmail.com';
-$site_key = "6LfrpRYqAAAAAFboLVF_GR6QM2qEZJn_hykGUZcV";
-$recaptcha_secret = "6LfrpRYqAAAAAL7YZ61AmKfB-yebONnmPtS1SrGc";
+$site_key = "6LciE0IqAAAAANSrZkBw6KTAWupQmRStrwnH60oQ";
+$recaptcha_secret = "6LciE0IqAAAAADpLt3NMBUwBnlwVJeMM-DpMpJGL";
 
 // function sendMail($to, $subject, $message, $attachment=NULL,$size=NULL,$type=NULL)
 // {
