@@ -124,9 +124,9 @@
 
 <!-- __________ FOOTER __________ -->
 
-	<?php include 'footer.php' ?>
+  <?php include 'footer.php' ?>
 
-	<!-- __________ FOOTER END __________ -->
+  <!-- __________ FOOTER END __________ -->
 
 
 
