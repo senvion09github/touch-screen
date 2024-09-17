@@ -63,6 +63,9 @@
    <div class="we-do-text">
    <h2 data-aos="fade-down" data-aos-delay="200">Data Analytics and Diagnostics Tool</h2>
    <p data-aos="fade-down" data-aos-delay="300">FleetPro®, Senvion India's SCADA platform, enables users to operate and monitor turbines remotely. With a comprehensive and intuitive AI and machine learning solution for wind turbine analysis, this powerful analytics platform empowers users to make informed decisions and maximise renewable energy generation. The platform seamlessly integrates multiple renewable asset platforms through various protocols, employing cutting-edge software technologies to simplify security and service for our customers. This platform's scalable architecture makes adding features easy.</p>
+   <div class="banner-btn">
+               <a data-fancybox data-src="#brochure-form" href="javascript:;">Download Brochure</a>
+            </div>
    </div>
 </div>
       <div class="fleet-pro-main">
@@ -121,6 +124,12 @@
     </div>
 </div>
 </section>
+
+<div class="brochure-main" style="display: none;" id="brochure-form">
+    <div class="fancybox-content">
+      <?php include 'brochure-form.php' ?>
+    </div>
+</div>
 
 <!-- __________ FOOTER __________ -->
 
