@@ -24,16 +24,17 @@
 			<div class="submit-btn">
 			<button id="brochure_downloadfrm-submit" class="submit brochure_downloadfrm-submit enquire-now" type="submit">Submit</button>
 		</div>
-		<div class="brochure_downloadfrm-response"></div>
 	</form>
+	<p>We are always looking for talented individuals to join our team. If you would like to work with us send your cv to <a href="mailto:retech-hr@senvion.in">retech-hr@senvion.in</a></p>
 </div>
+
 <div class="brochure-form-main">
 	<img src="assets/images/brochure-img.jpg">
 	<div class="brochure-text">
 		<h2>Let's drive<br>the future<br>of clean energy,<br>together!</h2>
 	</div>
 	<div class="brochure-link">
-		<a data-fancybox data-src="#corporate-brochure-form" href="javascript:;">
+		<a data-fancybox data-src="#brochure-form" href="javascript:;">
   Download Brochure <i class="fa-solid fa-arrow-down"></i>
 </a>
 	</div>
@@ -41,8 +42,8 @@
 
 
 
-<div class="brochure-main" style="display: none;" id="corporate-brochure-form">
+<div class="brochure-main" style="display: none;" id="brochure-form">
     <div class="fancybox-content">
-      <?php include 'corporate-brochure-form.php' ?>
+      <?php include 'brochure-form.php' ?>
     </div>
 </div>

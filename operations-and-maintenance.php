@@ -8,17 +8,17 @@
 <!-- Meta tags -->
 <meta name="robots" content="INDEX,FOLLOW"/>
 <link rel="canonical" href="#" />
-<meta name="description" content=""/>						
+<meta name="description" content=""/>                       
 <meta property="og:locale" content="en_US" />
-<meta property="og:type" content="Website" />				
+<meta property="og:type" content="Website" />               
 <meta property="og:image" content="assets/images/logo.png" />
 <meta property="og:title" content="" />
-<meta property="og:description" content="" />			
+<meta property="og:description" content="" />           
 <meta property="og:url" content="#" />
-<meta property="og:sitename" content="Senvion" />						
-<meta name="twitter:card" content="summary_large_image" />						
-<meta name="twitter:title" content="" />		
-<meta name="twitter:description" content="" />	
+<meta property="og:sitename" content="Senvion" />                       
+<meta name="twitter:card" content="summary_large_image" />                      
+<meta name="twitter:title" content="" />        
+<meta name="twitter:description" content="" />  
 <meta name="twitter:image" content="assets/images/logo.png" />
 <!-- Meta tags -->
 
@@ -37,24 +37,24 @@
 <?php include 'header.php'?>
 
 <section>
-	<div class="banner-main">
-	<div class="banner-text">
-		<div class="container">
-		<h1 data-aos="fade-down" data-aos-delay="200">Operations And Maintenance</h1>
-		<p data-aos="fade-down" data-aos-delay="300">Senvion India has a highly efficient in-house Operation and Maintenance (O&M) team that is actively managing Wind Farm Power Projects in multiple Indian states. Our team serves a prestigious clientele, including the industry's leading Independent Power Producers (IPPs).</p>
-	</div>
+    <div class="banner-main">
+    <div class="banner-text">
+        <div class="container">
+        <h1 data-aos="fade-down" data-aos-delay="200">Operations And Maintenance</h1>
+        <p data-aos="fade-down" data-aos-delay="300">Senvion India has a highly efficient in-house Operation and Maintenance (O&M) team that is actively managing Wind Farm Power Projects in multiple Indian states. Our team serves a prestigious clientele, including the industry's leading Independent Power Producers (IPPs).</p>
+    </div>
 </div>
 
-		<div class="banner-img">
-			<img src="assets/images/service-banner.jpg">
-		</div>
-	</div>
-	<div class="product-tab stickynav">
-		<ul class="tab-list">
+        <div class="banner-img">
+            <img src="assets/images/service-banner.jpg">
+        </div>
+    </div>
+    <div class="product-tab stickynav">
+        <ul class="tab-list">
         <li class="active"><a href="operations-and-maintenance.php">O&M</a></li>
         <li><a href="fleetpro.php">FleetPro®</a></li>
     </ul>
-	</div>
+    </div>
 </section>
 
 <section class="service-tabs">
@@ -63,6 +63,9 @@
    <div class="we-do-text">
    <h2 data-aos="fade-down" data-aos-delay="200">What we do</h2>
    <p data-aos="fade-down" data-aos-delay="300">Senvion India takes pride in providing flexible services that are tailored to our customers' specific needs and expectations. We developed FleetPro, a cutting-edge digital platform that enables efficient monitoring and control of wind farm fleets. Our digitised platform ensures optimal operations for maximum productivity by focusing on performance and machine availability.</p>
+   <div class="banner-btn">
+               <a data-fancybox data-src="#brochure-form" href="javascript:;">Download Brochure</a>
+            </div>
    </div>
 </div>
       <div class="container">
@@ -227,24 +230,30 @@
                </div>
             </div>
          </div>
-    	</div>
+        </div>
 </section>
+
+<div class="brochure-main" style="display: none;" id="brochure-form">
+    <div class="fancybox-content">
+      <?php include 'brochure-form.php' ?>
+    </div>
+</div>
 
 <!-- __________ FOOTER __________ -->
 
-	<?php include 'footer.php' ?>
+    <?php include 'footer.php' ?>
 
-	<!-- __________ FOOTER END __________ -->
-
-
+    <!-- __________ FOOTER END __________ -->
 
 
 
-	<!-- __________ Include JS __________ -->
 
-	<?php include 'style_js.php' ?>
 
-	<!-- __________ JS END __________ -->
+    <!-- __________ Include JS __________ -->
+
+    <?php include 'style_js.php' ?>
+
+    <!-- __________ JS END __________ -->
 
 </body>
 

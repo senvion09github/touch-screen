@@ -47,7 +47,7 @@
          </div>
       </div>
       <div class="banner-img">
-         <img src="assets/images/product-banner-1.jpg" alt="Product Banner">
+         <img src="assets/images/product-banner-2.jpg" alt="Product Banner">
       </div>
    </div>
    <div class="product-tab stickynav">
@@ -64,6 +64,24 @@
    <div class="container">
       <div class="table-main">
          <div class="table-1">
+           <table data-aos="fade-down" data-aos-delay="200">
+               <thead>
+                  <tr><th colspan="2">Product Introduction</th></tr>
+               </thead>
+               <tbody class="table-body video-table">
+                 <tr>
+                  <th>
+                  <a href="https://youtu.be/eFdPLTZjHYw" data-fancybox="video" class="video-link">
+    <div class="video-wrapper">
+        <img class="placeholder-img" src="assets/images/placeholder.webp" />
+        <i class="fa-solid fa-play play-icon"></i>
+    </div>
+         </a>                  
+      </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="table-2">
             <table data-aos="fade-down" data-aos-delay="200">
                <thead>
                   <tr><th colspan="2">Design Data</th></tr>
@@ -78,7 +96,10 @@
                </tbody>
             </table>
          </div>
-         <div class="table-2">
+      </div>
+
+      <div class="table-main">
+         <div class="table-1">
             <table data-aos="fade-down" data-aos-delay="300">
                <thead>
                   <tr><th colspan="2">Rotor</th></tr>
@@ -90,10 +111,7 @@
                </tbody>
             </table>
          </div>
-      </div>
-
-      <div class="table-main">
-         <div class="table-1">
+         <div class="table-2">
             <table data-aos="fade-down" data-aos-delay="400">
                <thead>
                   <tr><th colspan="2">Certification</th></tr>
@@ -104,7 +122,10 @@
                </tbody>
             </table>
          </div>
-         <div class="table-2">
+      </div>
+
+      <div class="table-main">
+         <div class="table-1">
             <table data-aos="fade-down" data-aos-delay="400">
                <thead>
                   <tr><th colspan="2">Tower</th></tr>
@@ -115,10 +136,7 @@
                </tbody>
             </table>
          </div>
-      </div>
-
-      <div class="table-main">
-         <div class="table-1">
+         <div class="table-2">
             <table data-aos="fade-down" data-aos-delay="500">
                <thead>
                   <tr><th colspan="2">Electrical System</th></tr>
@@ -131,6 +149,8 @@
                </tbody>
             </table>
          </div>
+      </div>
+      <div class="table-main">
          <div class="table-2">
             <table data-aos="fade-down" data-aos-delay="600">
                <thead>
@@ -183,20 +203,20 @@
             <p>WTG Type: 2.7M130</p>
             <p>Project Size: 13 WTG; 30 MW</p>
          </div>
-         <div class="project-1" data-aos="fade-down" data-aos-delay="300">
+         <!-- <div class="project-1" data-aos="fade-down" data-aos-delay="300">
             <img src="assets/images/projects/dummy.jpg">
             <p>Customer: JSW Energy</p>
             <p>Site: Tamil Nadu</p>
             <p>WTG Type: 2.7M130</p>
             <p>Project Size: 160 WTG; 432 MW</p>
-         </div>
-         <div class="project-1" data-aos="fade-down" data-aos-delay="400">
+         </div> -->
+        <!--  <div class="project-1" data-aos="fade-down" data-aos-delay="400">
             <img src="assets/images/projects/dummy.jpg">
             <p>Customer: DB Renew</p>
             <p>Site: Chikkodi, Karnataka</p>
             <p>WTG Type: 2.7M130</p>
             <p>Project Size: 10 WTG; 27 MW</p>
-         </div>
+         </div> -->
           <div class="project-1" data-aos="fade-down" data-aos-delay="500">
             <img src="assets/images/projects/fourth-partner.jpg">
             <p>Customer: Fourth Partner</p>
@@ -211,13 +231,13 @@
             <p>WTG Type: 2.7M130</p>
             <p>Project Size: 3 WTG; 8 MW</p>
          </div>
-         <div class="project-1" data-aos="fade-down" data-aos-delay="700">
+        <!--  <div class="project-1" data-aos="fade-down" data-aos-delay="700">
             <img src="assets/images/projects/dummy.jpg">
             <p>Customer: O2 Power</p>
             <p>Site: Maharashtra & Gujarat</p>
             <p>WTG Type: 2.7M130</p>
             <p>Project Size: 45 WTG; 122 MW</p>
-         </div>
+         </div> -->
          <div class="project-1" data-aos="fade-down" data-aos-delay="800">
             <img src="assets/images/projects/pashupati.jpg">
             <p>Customer: Pashupati</p>

@@ -53,7 +53,7 @@
    </div>
    <div class="product-tab stickynav">
       <ul class="tab-list">
-         <li><a href="2-3m120.php" class="tab-link">2.3M120*</a></li>
+         <li><a href="2-3m120.php" class="tab-link">2.3M120</a></li>
          <li><a href="2-7m130.php" class="tab-link">2.7M130*</a></li>
          <li><a href="3-1m130.php" class="tab-link">3.1M130*</a></li>
          <li class="active"><a href="4-2m160.php" class="tab-link">4.2M160*</a></li>
@@ -65,6 +65,24 @@
    <div class="container">
       <div class="table-main">
          <div class="table-1">
+            <table data-aos="fade-down" data-aos-delay="200">
+               <thead>
+                  <tr><th colspan="2">Product Introduction</th></tr>
+               </thead>
+               <tbody class="table-body video-table">
+                 <tr>
+                  <th>
+                  <a href="https://youtu.be/eFdPLTZjHYw" data-fancybox="video" class="video-link">
+    <div class="video-wrapper">
+        <img class="placeholder-img" src="assets/images/placeholder.webp" />
+        <i class="fa-solid fa-play play-icon"></i>
+    </div>
+         </a>                  
+      </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="table-2">
             <table data-aos="fade-down" data-aos-delay="200">
                <thead>
                   <tr><th colspan="2">Design Data</th></tr>
@@ -79,7 +97,10 @@
                </tbody>
             </table>
          </div>
-         <div class="table-2">
+      </div>
+
+      <div class="table-main">
+         <div class="table-1">
             <table data-aos="fade-down" data-aos-delay="300">
                <thead>
                   <tr><th colspan="2">Rotor</th></tr>
@@ -91,10 +112,7 @@
                </tbody>
             </table>
          </div>
-      </div>
-
-      <div class="table-main">
-         <div class="table-1">
+         <div class="table-2">
             <table data-aos="fade-down" data-aos-delay="400">
                <thead>
                   <tr><th colspan="2">Certification</th></tr>
@@ -105,7 +123,10 @@
                </tbody>
             </table>
          </div>
-         <div class="table-2">
+      </div>
+
+      <div class="table-main">
+          <div class="table-1">
             <table data-aos="fade-down" data-aos-delay="500">
                <thead>
                   <tr><th colspan="2">Tower</th></tr>
@@ -116,10 +137,7 @@
                </tbody>
             </table>
          </div>
-      </div>
-
-      <div class="table-main">
-         <div class="table-1">
+         <div class="table-2">
             <table data-aos="fade-down" data-aos-delay="600">
                <thead>
                   <tr><th colspan="2">Electrical System</th></tr>
@@ -132,7 +150,10 @@
                </tbody>
             </table>
          </div>
-         <div class="table-2">
+      </div>
+
+      <div class="table-main">
+         <div class="table-1">
             <table data-aos="fade-down" data-aos-delay="700">
                <thead>
                   <tr><th colspan="2">Rotor Blade</th></tr>

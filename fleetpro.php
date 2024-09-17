@@ -8,17 +8,17 @@
 <!-- Meta tags -->
 <meta name="robots" content="INDEX,FOLLOW"/>
 <link rel="canonical" href="#" />
-<meta name="description" content=""/>						
+<meta name="description" content=""/>           
 <meta property="og:locale" content="en_US" />
-<meta property="og:type" content="Website" />				
+<meta property="og:type" content="Website" />       
 <meta property="og:image" content="assets/images/logo.png" />
 <meta property="og:title" content="" />
-<meta property="og:description" content="" />			
+<meta property="og:description" content="" />     
 <meta property="og:url" content="#" />
-<meta property="og:sitename" content="Senvion" />						
-<meta name="twitter:card" content="summary_large_image" />						
-<meta name="twitter:title" content="" />		
-<meta name="twitter:description" content="" />	
+<meta property="og:sitename" content="Senvion" />           
+<meta name="twitter:card" content="summary_large_image" />            
+<meta name="twitter:title" content="" />    
+<meta name="twitter:description" content="" />  
 <meta name="twitter:image" content="assets/images/logo.png" />
 <!-- Meta tags -->
 
@@ -37,24 +37,24 @@
 <?php include 'header.php'?>
 
 <section>
-	<div class="banner-main">
-	<div class="banner-text">
-		<div class="container">
-		<h1 data-aos="fade-down" data-aos-delay="200">FleetPro</h1>
-		<p data-aos="fade-down" data-aos-delay="300">Senvion India has designed its own proprietary SCADA System (FleetPro®) to deliver high level of data integration. It has full solution with a cascade of possibilities in monitoring, remote control, and data integration. It is a human-machine interface in the wind turbine process data acquisition i.e., processing data that has been measured for various analysis, reports. This web-based product function does not require any installation or administration of additional hardware.</p>
-	</div>
+  <div class="banner-main">
+  <div class="banner-text">
+    <div class="container">
+    <h1 data-aos="fade-down" data-aos-delay="200">FleetPro</h1>
+    <p data-aos="fade-down" data-aos-delay="300">Senvion India has designed its own proprietary SCADA System (FleetPro®) to deliver high level of data integration. It has full solution with a cascade of possibilities in monitoring, remote control, and data integration. It is a human-machine interface in the wind turbine process data acquisition i.e., processing data that has been measured for various analysis, reports. This web-based product function does not require any installation or administration of additional hardware.</p>
+  </div>
 </div>
 
-		<div class="banner-img">
-			<img src="assets/images/service-banner.jpg">
-		</div>
-	</div>
-	<div class="product-tab stickynav">
-		<ul class="tab-list">
+    <div class="banner-img">
+      <img src="assets/images/service-banner.jpg">
+    </div>
+  </div>
+  <div class="product-tab stickynav">
+    <ul class="tab-list">
         <li><a href="operations-and-maintenance.php">O&M</a></li>
         <li class="active"><a href="fleetpro.php">FleetPro®</a></li>
     </ul>
-	</div>
+  </div>
 </section>
 
 <section class="service-tabs">
@@ -132,11 +132,11 @@
 
 
 
-	<!-- __________ Include JS __________ -->
+  <!-- __________ Include JS __________ -->
 
-	<?php include 'style_js.php' ?>
+  <?php include 'style_js.php' ?>
 
-	<!-- __________ JS END __________ -->
+  <!-- __________ JS END __________ -->
 
 </body>
 

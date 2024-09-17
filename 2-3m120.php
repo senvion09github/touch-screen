@@ -46,12 +46,12 @@
          </div>
       </div>
       <div class="banner-img">
-         <img src="assets/images/product-banner.jpg" alt="Product Banner">
+         <img src="assets/images/product-banner-1.jpg" alt="Product Banner">
       </div>
    </div>
    <div class="product-tab stickynav">
       <ul class="tab-list">
-         <li class="active"><a href="2-3m120.php" class="tab-link">2.3M120*</a></li>
+         <li class="active"><a href="2-3m120.php" class="tab-link">2.3M120</a></li>
          <li><a href="2-7m130.php" class="tab-link">2.7M130*</a></li>
          <li><a href="3-1m130.php" class="tab-link">3.1M130*</a></li>
          <li><a href="4-2m160.php" class="tab-link">4.2M160*</a></li>
@@ -67,14 +67,18 @@
                <thead>
                   <tr><th colspan="2">Product Introduction</th></tr>
                </thead>
-               <tbody class="table-body">
+               <tbody class="table-body video-table">
                  <tr>
-                  <th>
-                  <a href="https://youtu.be/eFdPLTZjHYw" data-fancybox="video">
-                   <img class="placeholder-img" src="assets/images/placeholder.webp" />
-               </a>
-                  </tr>
-               </th>
+                  <td>
+                  <a href="https://youtu.be/eFdPLTZjHYw" data-fancybox="video" class="video-link">
+    <div class="video-wrapper">
+        <img class="placeholder-img" src="assets/images/placeholder.webp" />
+        <i class="fa-solid fa-play play-icon"></i>
+    </div>
+</a>
+</td>                  
+</tr>
+
                </tbody>
             </table>
          </div>
@@ -90,7 +94,7 @@
                   <tr><td>Cut in wind speed (m/s)</td><td>3.0</td></tr>
                   <tr><td>Cut out wind speed (m/s)</td><td>20.0</td></tr>
                   <tr><td>Nominal wind speed (m/s)</td><td>11.0</td></tr>
-                  <tr><td>Operating Temperature range (°C)</td><td>-10 °C to 50 °C</td></tr>
+                  <tr><td>Operating Temperature range (°C)</td><td>-10 to 40</td></tr>
                   <tr><td>Survival Temperature range (°C)</td><td>-20 to 50</td></tr>
                </tbody>
             </table>
@@ -195,13 +199,13 @@
             <p>WTG Type: 2.3M120</p>
             <p>Project Size: 27 WTG; 62 MW</p>
          </div>
-         <div class="project-1" data-aos="fade-down" data-aos-delay="200">
+        <!--  <div class="project-1" data-aos="fade-down" data-aos-delay="200">
             <img src="assets/images/projects/dummy.jpg">
             <p>Customer: Engie</p>
             <p>Site: Tithwa, Gujarat</p>
             <p>WTG Type: 2.3M120</p>
             <p>Project Size: 13 WTG; 30 MW</p>
-         </div>
+         </div> -->
          <div class="project-1" data-aos="fade-down" data-aos-delay="300">
             <img src="assets/images/projects/alfanar-energy.jpg">
             <p>Customer: alfanar Energy (2 projects)</p>
@@ -209,13 +213,13 @@
             <p>WTG Type: 2.3M120</p>
             <p>Project Size: 44 WTG; 101.2 MW</p>
          </div>
-         <div class="project-1" data-aos="fade-down" data-aos-delay="400">
+        <!--  <div class="project-1" data-aos="fade-down" data-aos-delay="400">
             <img src="assets/images/projects/dummy.jpg">
             <p>Customer: Opera Energy (2 projects)</p>
             <p>Site: Gujarat</p>
             <p>WTG Type: 2.3M120</p>
             <p>Project Size: 14 WTG; 38 MW</p>
-         </div>
+         </div> -->
           <div class="project-1" data-aos="fade-down" data-aos-delay="500">
             <img src="assets/images/projects/kp-energy.jpg">
             <p>Customer: KP Energy</p>
