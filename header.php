@@ -7,15 +7,10 @@
   <div class="row">
 
             <div class="col-12 p-0">
-
                 <nav class="main-nav">
-
                   <div class="logo"><a href="index.php">
-
                   <img src="assets/images/logo.jpg" alt="">
-
                     </a>
-
                     </div>
 
                     <!-- ***** Logo End ***** -->
@@ -30,9 +25,10 @@
         <li class="dropdown"><a><span>Products</span> <i class="fa-solid fa-chevron-down"></i></a>
 
        <ul class="header-nav">
-              <li><a href="2m-series.php">2.7M130</a></li>
-            <li><a href="3m-series.php">3.1M130</a></li>
-            <li><a href="4m-series.php">4.2M160</a></li>
+              <li><a href="2-3m120.php">2.3M120</a></li>
+              <li><a href="2-7m130.php">2.7M130</a></li>
+            <li><a href="3-1m130.php">3.1M130</a></li>
+            <li><a href="4-2m160.php">4.2M160</a></li>
             
 
           </ul>

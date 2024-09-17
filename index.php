@@ -28,9 +28,7 @@
 
 <!-- _______ CSS END _______ -->
 
-
 <body>
-
 
 <!-- __________ HEADER __________ -->
 
@@ -41,7 +39,7 @@
 	<div class="banner-text">
 		<div class="container">
 		<h1 data-aos="fade-down" data-aos-delay="200">About Senvion</h1>
-		<p data-aos="fade-down" data-aos-delay="300">Welcome to Senvion, your trusted partner in the wind industry. With a legacy of engineering excellence spanning over 25 years, we are proud to be one of the fastest-growing firms in the Indian wind industry. Our journey began in Bengaluru in early 2015 with a dedicated R&D setup, and today, we have expanded our operations to engage over 1000 direct and indirect resources across the value chain in India. We believe in making wind perform.</p>
+		<p data-aos="fade-down" data-aos-delay="300">Welcome to Re Technologies | Senvion, your trusted partner in the wind industry. With a legacy of engineering excellence spanning over 25 years, we are proud to be one of the fastest-growing firms in the wind industry. Our journey began in Bengaluru in early 2015 with a dedicated R&D setup, and today, we have expanded our operations to engage over 1200 direct and indirect resources across the value chain in India and Germany. We believe in making wind perform.</p>
 	</div>
 </div>
 
@@ -61,9 +59,10 @@
 		</div>
 		<div class="product-list">
 			<ul>
-				<li><a href="2m-series.php"><img src="assets/images/product-1.jpg"><h3>2.7M130* <i class="fa-solid fa-arrow-right"></i></h3></a></li>
-				<li><a href="3m-series.php"><img src="assets/images/product-2.jpg"><h3>3.1M130* <i class="fa-solid fa-arrow-right"></i></h3></a></li>
-				<li><a href="4m-series.php"><img src="assets/images/product-3.jpg"><h3>4.2M160* <i class="fa-solid fa-arrow-right"></i></h3></a></li>
+				<li><a href="2-3m120.php"><img src="assets/images/product-1.jpg"><h3>2.3M120* <i class="fa-solid fa-arrow-right"></i></h3></a></li>
+				<li><a href="2-7m130.php"><img src="assets/images/product-2.jpg"><h3>2.7M130* <i class="fa-solid fa-arrow-right"></i></h3></a></li>
+				<li><a href="3-1m130.php"><img src="assets/images/product-3.jpg"><h3>3.1M130* <i class="fa-solid fa-arrow-right"></i></h3></a></li>
+				<li><a href="4-2m160.php"><img src="assets/images/product-4.jpg"><h3>4.2M160* <i class="fa-solid fa-arrow-right"></i></h3></a></li>
 
 			</ul>
 		</div>
