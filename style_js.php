@@ -11,7 +11,7 @@
         once:true,
     });
 </script>
-<script src="https://www.google.com/recaptcha/api.js?render=6LciE0IqAAAAANSrZkBw6KTAWupQmRStrwnH60oQ"></script>
+<!-- <script src="https://www.google.com/recaptcha/api.js?render=6LciE0IqAAAAANSrZkBw6KTAWupQmRStrwnH60oQ"></script> -->
 <script type="text/javascript" src="assets/js/jquery-validation/jquery.validate.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery-validation/additional-methods.min.js"></script>
 <script type="text/javascript" src="api/validationA09.js"></script>
@@ -34,12 +34,18 @@
     // Set the value in the desired input field (replace '#yourInputId' with the actual ID of your input)
     var inputVal = '';
     console.log(inputValue);
-    if (inputValue == '2m-series') {
+    if (inputValue == '2-7m130') {
         var inputVal = '2.7M130';
-    } else if(inputValue == '3m-series') {
+    } else if(inputValue == '3-1m130') {
         var inputVal = '3.1M130';
-    } else if(inputValue == '4m-series') {
+    } else if(inputValue == '4-2m160') {
         var inputVal = '4.2M130';
+    } else if(inputValue == '2-3m120') {
+        var inputVal = '2.3M130';
+    } else if(inputValue == 'operations-and-maintenance') {
+        var inputVal = 'oandm';
+    } else if(inputValue == 'fleetpro') {
+        var inputVal = 'fleetpro';
     }
     document.querySelector('#product').value = inputVal;
 

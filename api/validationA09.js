@@ -86,10 +86,10 @@ $('#brochure_downloadfrm').validate({
         $('.brochure_downloadfrm-response').html('');
         $button.attr('disabled',true);
 
-        grecaptcha.ready(function() {
-          grecaptcha.execute('6LciE0IqAAAAANSrZkBw6KTAWupQmRStrwnH60oQ', {action: 'submit'}).then(function(token) {
+        // grecaptcha.ready(function() {
+        //   grecaptcha.execute('6LciE0IqAAAAANSrZkBw6KTAWupQmRStrwnH60oQ', {action: 'submit'}).then(function(token) {
 
-            formData.append('token', token);
+        //     formData.append('token', token);
 
                 $.ajax({
                   type: 'post',
@@ -123,8 +123,8 @@ $('#brochure_downloadfrm').validate({
                         $button.text('Submit');
                     }             
                });
-         }); //end grecaptcha execute 
-        }); //end grecaptcha 
+        //  }); //end grecaptcha execute 
+        // }); //end grecaptcha 
     }
 
 });
@@ -164,10 +164,10 @@ $('#brochure_view_form').validate({
         $('.brochure_downloadfrm-response').html('');
         $button.attr('disabled',true);
 
-        grecaptcha.ready(function() {
-          grecaptcha.execute('6LciE0IqAAAAANSrZkBw6KTAWupQmRStrwnH60oQ', {action: 'submit'}).then(function(token) {
+        // grecaptcha.ready(function() {
+        //   grecaptcha.execute('6LciE0IqAAAAANSrZkBw6KTAWupQmRStrwnH60oQ', {action: 'submit'}).then(function(token) {
 
-            formData.append('token', token);
+        //     formData.append('token', token);
 
                 $.ajax({
                   type: 'post',
@@ -184,11 +184,17 @@ $('#brochure_view_form').validate({
                             $('.brochure_downloadfrm-response').html('<span class="success">'+res.message+'</span>');
                             $.fancybox.close();
                             if (res.data == '2.7M130') {
-                                $("#lnk_download_brochure1")[0].click();
+                              $("#lnk_download_brochure1")[0].click();
                             }else if(res.data == '3.1M130'){
-                                $("#lnk_download_brochure2")[0].click();
+                              $("#lnk_download_brochure2")[0].click();
                             }else if(res.data == '4.2M130'){
-                                $("#lnk_download_brochure3")[0].click();
+                              $("#lnk_download_brochure3")[0].click();
+                            }else if(res.data == '2.3M130'){
+                              $("#lnk_download_brochure4")[0].click();
+                            }else if(res.data == 'oandm'){
+                              $("#lnk_download_brochure5")[0].click();
+                            }else if(res.data == 'fleetpro'){
+                              $("#lnk_download_brochure6")[0].click();
                             }
                             location.reload();
                             //window.location.replace("https://www.vihangahead.com/campaign-2024/thank_you.php");
@@ -208,8 +214,8 @@ $('#brochure_view_form').validate({
                         $button.text('Submit');
                     }             
                });
-         }); //end grecaptcha execute 
-        }); //end grecaptcha 
+        //  }); //end grecaptcha execute 
+        // }); //end grecaptcha 
     }
 
 });
@@ -249,10 +255,10 @@ $('#brochure_c_view_form').validate({
         $('.brochure_downloadfrm-response').html('');
         $button.attr('disabled',true);
 
-        grecaptcha.ready(function() {
-          grecaptcha.execute('6LciE0IqAAAAANSrZkBw6KTAWupQmRStrwnH60oQ', {action: 'submit'}).then(function(token) {
+        // grecaptcha.ready(function() {
+        //   grecaptcha.execute('6LciE0IqAAAAANSrZkBw6KTAWupQmRStrwnH60oQ', {action: 'submit'}).then(function(token) {
 
-            formData.append('token', token);
+        //     formData.append('token', token);
 
                 $.ajax({
                   type: 'post',
@@ -287,8 +293,8 @@ $('#brochure_c_view_form').validate({
                         $button.text('Submit');
                     }             
                });
-         }); //end grecaptcha execute 
-        }); //end grecaptcha 
+        //  }); //end grecaptcha execute 
+        // }); //end grecaptcha 
     }
 
 });

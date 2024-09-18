@@ -6,15 +6,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   $name     = htmlspecialchars(trim($_POST['name']));
   $email    = htmlspecialchars(trim($_POST['email']));
+  $countryCode    = htmlspecialchars(trim($_POST['countryCode']));
   $mobile    = htmlspecialchars(trim($_POST['mobile']));
   $product    = htmlspecialchars(trim($_POST['product']));
-  $token    = $_POST['token'];
+  //$token    = $_POST['token'];
   $created_at   = date("Y-m-d H:i:s");
   $status = 0;
   //START validation
   $required_fields = [
     'name' => 'Name',
     'email' => 'Email',
+    'countryCode' => 'countryCode',
     'mobile' => 'Mobile',
     'product' => 'Product',
   ];
@@ -39,30 +41,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       sendResponse(0,'Invalid email');
   }
 
-  if ($token) {
-      //validate google recaptcha
-      $recaptcha_url = "https://www.google.com/recaptcha/api/siteverify";
-      $recaptcha_secret = '6LciE0IqAAAAADpLt3NMBUwBnlwVJeMM-DpMpJGL';
-      $recaptcha_response = $token;
+  // if ($token) {
+  //     //validate google recaptcha
+  //     $recaptcha_url = "https://www.google.com/recaptcha/api/siteverify";
+  //     $recaptcha_secret = '6LciE0IqAAAAADpLt3NMBUwBnlwVJeMM-DpMpJGL';
+  //     $recaptcha_response = $token;
 
-      // Make and decode POST request:
-      $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
-      $recaptcha = json_decode($recaptcha);
+  //     // Make and decode POST request:
+  //     $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+  //     $recaptcha = json_decode($recaptcha);
 
-      // Take action based on the score returned:
-      if ($recaptcha->success != true || $recaptcha->success != 1) {
-          sendResponse(0, "Invalid captcha.");
-      }
+  //     // Take action based on the score returned:
+  //     if ($recaptcha->success != true || $recaptcha->success != 1) {
+  //         sendResponse(0, "Invalid captcha.");
+  //     }
 
-  }
-  else {
-      sendResponse(0, 'Captcha is missing.');
-  }
+  // }
+  // else {
+  //     sendResponse(0, 'Captcha is missing.');
+  // }
 
 
   // save entries
-  $stmt = $conn->prepare("INSERT INTO `view_brochure` ( `name`, `email`, `mobile`, `product`, `status`, `created_at`) VALUES (?,?,?,?,?,?)");
-  $stmt->bind_param("ssssss", $name, $email, $mobile, $product, $status, $created_at);
+  $stmt = $conn->prepare("INSERT INTO `view_brochure` ( `name`, `email`, `countryCode`, `mobile`, `product`, `status`, `created_at`) VALUES (?,?,?,?,?,?,?)");
+  $stmt->bind_param("sssssss", $name, $email, $countryCode, $mobile, $product, $status, $created_at);
 
 
   if ($stmt->execute()) {

@@ -11,8 +11,17 @@ if ($_GET['pdf'] == 1) {
     $filePath = 'assets/pdf/4.2-brochure.pdf'; // Adjust the path as needed
     $file_name = "4.2-brochure.pdf";
 }elseif ($_GET['pdf'] == 4) {
-    $filePath = 'assets/pdf/Senvion Brochure Final.pdf'; // Adjust the path as needed
-    $file_name = "Senvion Brochure Final.pdf";
+    $filePath = 'assets/pdf/2.3-brochure.pdf'; // Adjust the path as needed
+    $file_name = "2.3-brochure.pdf";
+}elseif ($_GET['pdf'] == 5) {
+    $filePath = 'assets/pdf/sample.pdf'; // Adjust the path as needed
+    $file_name = "sample.pdf";
+}elseif ($_GET['pdf'] == 6) {
+    $filePath = 'assets/pdf/sample.pdf'; // Adjust the path as needed
+    $file_name = "sample.pdf";
+}elseif ($_GET['pdf'] == 'c') {
+    $filePath = 'assets/pdf/Senvion-Corporate-Brochure.pdf'; // Adjust the path as needed
+    $file_name = "Senvion-Corporate-Brochure.pdf";
 }
 // Path to the protected PDF file
 
