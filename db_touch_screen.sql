@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 13, 2024 at 12:33 PM
+-- Generation Time: Sep 18, 2024 at 01:32 PM
 -- Server version: 8.2.0
 -- PHP Version: 8.2.13
 
@@ -32,6 +32,7 @@ CREATE TABLE IF NOT EXISTS `contact_us` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
+  `countryCode` varchar(11) NOT NULL DEFAULT '',
   `mobile` varchar(20) NOT NULL,
   `company_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `message` text NOT NULL,
@@ -51,6 +52,7 @@ CREATE TABLE IF NOT EXISTS `view_brochure` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
+  `countryCode` varchar(11) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT '',
   `mobile` varchar(20) NOT NULL,
   `product` varchar(255) NOT NULL,
   `status` int NOT NULL DEFAULT '0',
