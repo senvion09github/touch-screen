@@ -6,6 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Get JSON input from the request
     $input = file_get_contents('php://input');
     $data = json_decode($input, true);
+	//echo "<pre>";print_r($data);exit;
 
     // Check if the input is an array
     if (!is_array($data)) {
@@ -14,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     // Prepare the SQL statement for insertion
-    $stmt = $conn->prepare("INSERT INTO view_brochure (name, email, mobile, product, status, created_at) VALUES (?, ?, ?, ?, ?, ?)");
+    $stmt = $conn->prepare("INSERT INTO view_brochure (name, email, countryCode, mobile, product, status, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)");
     
     // Default status value and current date/time
     $status = 1; 
@@ -28,12 +29,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Extract individual fields with default empty values
         $name = $record['name'] ?? '';
         $email = $record['email'] ?? '';
+	$countryCode = $record['countryCode'] ?? '';
         $mobile = $record['mobile'] ?? '';
         $product = $record['product'] ?? '';
         $message = $record['message'] ?? '';
 
         // Bind the parameters and execute the statement
-        $stmt->bind_param("ssssis", $name, $email, $mobile, $product, $status, $created_at);
+        $stmt->bind_param("sssssis", $name, $email, $countryCode, $mobile, $product, $status, $created_at);
         
         if ($stmt->execute()) {
             // Collect the ID of each inserted record
