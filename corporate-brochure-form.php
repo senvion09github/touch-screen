@@ -5,9 +5,10 @@
             <input type="text" class="form-control" name="name" placeholder="Name:">
 			<input type="hidden" class="form-control" name="product" value="corporate-brochure" placeholder="Product:">
         </div>
-        <div class="form-group">
+        <div class="grop-field">
+        <div class="form-group code-field">
             <select name="countryCode" id="countryCode" class="form-control">
-                <option data-countryCode="US" value="1" Selected >USA (+1)</option>
+                <option data-countryCode="DE" value="49" Selected>Germany (+49)</option>
                 <optgroup label="Other countries">
                     <option data-countryCode="DZ" value="213">Algeria (+213)</option>
                     <option data-countryCode="AD" value="376">Andorra (+376)</option>
@@ -77,7 +78,6 @@
                     <option data-countryCode="GA" value="241">Gabon (+241)</option>
                     <option data-countryCode="GM" value="220">Gambia (+220)</option>
                     <option data-countryCode="GE" value="7880">Georgia (+7880)</option>
-                    <option data-countryCode="DE" value="49">Germany (+49)</option>
                     <option data-countryCode="GH" value="233">Ghana (+233)</option>
                     <option data-countryCode="GI" value="350">Gibraltar (+350)</option>
                     <option data-countryCode="GR" value="30">Greece (+30)</option>
@@ -210,7 +210,7 @@
                     <option data-countryCode="UA" value="380">Ukraine (+380)</option>
                     <option data-countryCode="AE" value="971">United Arab Emirates (+971)</option>
                     <option data-countryCode="UY" value="598">Uruguay (+598)</option>
-                    <!-- <option data-countryCode="US" value="1">USA (+1)</option> -->
+                    <option data-countryCode="US" value="1" >USA (+1)</option>
                     <option data-countryCode="UZ" value="7">Uzbekistan (+7)</option>
                     <option data-countryCode="VU" value="678">Vanuatu (+678)</option>
                     <option data-countryCode="VA" value="379">Vatican City (+379)</option>
@@ -226,9 +226,10 @@
                 </optgroup>
             </select>
         </div>
-        <div class="form-group">
+        <div class="form-group number-field">
             <input class="form-control" name="mobile" placeholder="Phone Number:" type="number">
         </div>
+    </div>
         <div class="form-group">
             <input class="form-control" name="email" placeholder="Email:" type="text">
         </div>
