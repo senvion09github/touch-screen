@@ -3,9 +3,10 @@
     <div class="form-group-main">
             <div class="form-group">
                 <input type="text" class="form-control" name="name" placeholder="Name:">
-                <input type="text" class="form-control" id="product" name="product" placeholder="Product:">
+                <input type="hidden" class="form-control" id="product" name="product" placeholder="Product:">
             </div>
-            <div class="form-group">
+            <div class="grop-field">
+            <div class="form-group code-field">
                 <select name="countryCode" id="countryCode" class="form-control">
                     <option data-countryCode="US" value="1" Selected >USA (+1)</option>
                     <optgroup label="Other countries">
@@ -226,9 +227,10 @@
                     </optgroup>
                 </select>
             </div>
-            <div class="form-group">
+            <div class="form-group number-field">
                 <input class="form-control" name="mobile" placeholder="Phone Number:" type="number">
             </div>
+        </div>
             <div class="form-group">
                 <input class="form-control" name="email" placeholder="Email:" type="text">
             </div>

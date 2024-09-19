@@ -231,7 +231,7 @@ width: 1px;height: 15px;}
 textarea{min-height:130px!important;}
 .form-group .form-control{background:transparent;padding:10px 20px;font-size:15px;width:100%;border:1px solid #adadad;border-radius:0px;}
 .brochure-form-main{width:40%;position:relative;}
-.brochure-form-main img{width:100%;object-fit:cover;object-position:top;height:80vh;}
+.brochure-form-main img{width:100%;object-fit:cover;object-position:top;height:fit-content;}
 .form-project{display:flex;}
 .brochure-text{position:absolute;top:0;left:0;right:0;margin:0 auto;display: flex;align-content: center;bottom:25%;align-items: center;
 justify-content: center;}
@@ -243,9 +243,19 @@ justify-content: center;}
 .copyrights-main a{text-decoration:none;padding-left:5px;color:var(--black);}
 /* .brochure-main{width:400px;} */
 .brochure-main .fancybox-content{padding:10px 0px;width:100%;}
-.form-group-main .form-group{margin:15px 0px;}
+.form-group-main .form-group{margin:15px 0px 0px;}
 .brochure-main .submit-btn{display: flex;justify-content:center;}
 .brochure-main h2{text-align:center;margin-bottom:15px;}
+.grop-field{width:100%;display: flex;gap:15px;}
+.code-field{width:30%}
+.code-field select{-webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml,<svg width='24' height='24' xmlns='http://www.w3.org/2000/svg'><path d='m0,6l12,12l12,-12l-24,0z'/><path fill='none' d='m0,0l24,0l0,24l-24,0l0,-24z'/></svg>")!important;
+      background-position-x: 95% !important;
+    background-position-y: 12px !important;
+    background-size: 16px !important;background-repeat:no-repeat!important;}
+.number-field{width:70%;}
 /****Footer Form****/
 
 

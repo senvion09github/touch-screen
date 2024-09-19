@@ -55,7 +55,7 @@
 			<h5 data-aos="fade-down" data-aos-delay="200">Our Products</h5>
 			<h2 data-aos="fade-down" data-aos-delay="300">We make wind perform</h2>
 			<p data-aos="fade-down" data-aos-delay="400">The power of wind can be awe-inspiring. On land and at sea, in high winds, under harsh conditions and in just about any location, we have proven just how competitive this clean power source can be.</p>
-			<a href="2m-series.php">Know More</a>
+			<a href="2-3m120.php">Know More</a>
 		</div>
 		<div class="product-list">
 			<ul>
