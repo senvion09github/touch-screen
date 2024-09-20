@@ -2,7 +2,8 @@
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/all.min.js"></script>
 <script src="assets/js/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="assets/js/jquery.fancybox.min.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
 <script type="text/javascript" src="assets/js/script09.js"></script> 
 
 <script>

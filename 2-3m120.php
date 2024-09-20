@@ -39,7 +39,7 @@
       <div class="banner-text">
          <div class="container">
             <h1 data-aos="fade-down" data-aos-delay="200">The Senvion 2.XM Series</h1>
-            <p data-aos="fade-down" data-aos-delay="300">Our new 2MW+ series wind turbine generator with a hub height of 130/140m has been optimized for higher yields at medium - low wind site. With an operating temperature range of upto 49 °C. Based on the tried-and-tested technology the new platform has been enhanced using innovative components as well as off-the-shelf components from top suppliers and our supply chain is localized. The 2.M series is fully compliant with Indian grid code requirement as on date.</p>
+            <p data-aos="fade-down" data-aos-delay="300">Our new 2MW+ series wind turbine generator with a hub height of 130/140m has been optimized for higher yields at medium - low wind site. With an operating temperature range of upto 40 °C. Based on the tried-and-tested technology the new platform has been enhanced using innovative components as well as off-the-shelf components from top suppliers and our supply chain is localized. The 2.XM series is fully compliant with Indian grid code requirement as on date.</p>
             <div class="banner-btn">
                <a data-fancybox data-src="#brochure-form" href="javascript:;">Download Brochure</a>
             </div>
@@ -65,28 +65,6 @@
          <div class="table-1">
             <table data-aos="fade-down" data-aos-delay="200">
                <thead>
-                  <tr><th colspan="2">Product Introduction</th></tr>
-               </thead>
-               <tbody class="table-body video-table">
-                 <tr>
-                  <td>
-                  <a href="https://youtu.be/eFdPLTZjHYw" data-fancybox="video" class="video-link">
-    <div class="video-wrapper">
-        <img class="placeholder-img" src="assets/images/placeholder.webp" />
-        <i class="fa-solid fa-play play-icon"></i>
-    </div>
-</a>
-</td>                  
-</tr>
-
-               </tbody>
-            </table>
-         </div>
-
-
-         <div class="table-2">
-            <table data-aos="fade-down" data-aos-delay="200">
-               <thead>
                   <tr><th colspan="2">Design Data</th></tr>
                </thead>
                <tbody class="table-body">
@@ -99,10 +77,7 @@
                </tbody>
             </table>
          </div>
-      </div>
-
-      <div class="table-main">
-         <div class="table-2">
+         <div class="table-1">
             <table data-aos="fade-down" data-aos-delay="300">
                <thead>
                   <tr><th colspan="2">Rotor</th></tr>
@@ -114,7 +89,10 @@
                </tbody>
             </table>
          </div>
-         <div class="table-2">
+      </div>
+
+      <div class="table-main">
+         <div class="table-1">
             <table data-aos="fade-down" data-aos-delay="400">
                <thead>
                   <tr><th colspan="2">Certification</th></tr>
@@ -125,10 +103,7 @@
                </tbody>
             </table>
          </div>
-      </div>
-
-      <div class="table-main">
-         <div class="table-1">
+         <div class="table-2">
             <table data-aos="fade-down" data-aos-delay="400">
                <thead>
                   <tr><th colspan="2">Tower</th></tr>
@@ -139,7 +114,10 @@
                </tbody>
             </table>
          </div>
-         <div class="table-2">
+      </div>
+
+      <div class="table-main">
+         <div class="table-1">
             <table data-aos="fade-down" data-aos-delay="500">
                <thead>
                   <tr><th colspan="2">Electrical System</th></tr>
@@ -152,9 +130,7 @@
                </tbody>
             </table>
          </div>
-      </div>
-      <div class="table-main">
-         <div class="table-1">
+         <div class="table-2">
             <table data-aos="fade-down" data-aos-delay="600">
                <thead>
                   <tr><th colspan="2">Rotor Blade</th></tr>
@@ -167,7 +143,6 @@
             </table>
          </div>
       </div>
-
 
       <div class="table-main">
          <div class="table-3">

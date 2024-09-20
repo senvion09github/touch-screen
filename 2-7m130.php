@@ -39,7 +39,7 @@
       <div class="banner-text">
          <div class="container">
             <h1 data-aos="fade-down" data-aos-delay="200">The Senvion 2.XM Series</h1>
-            <p data-aos="fade-down" data-aos-delay="300">Our new 2MW+ series wind turbine generator with a hub height of 130/140m has been optimized for higher yields at medium - low wind site. With an operating temperature range of upto 49 °C. Based on the tried-and-tested technology the new platform has been enhanced using innovative components as well as off-the-shelf components from top suppliers and our supply chain is localized. The 2.M series is fully compliant with Indian grid code requirement as on date.</p>
+            <p data-aos="fade-down" data-aos-delay="300">Our new 2MW+ series wind turbine generator with a hub height of 130/140m has been optimized for higher yields at medium - low wind site. With an operating temperature range of upto 49 °C. Based on the tried-and-tested technology the new platform has been enhanced using innovative components as well as off-the-shelf components from top suppliers and our supply chain is localized. The 2.XM series is fully compliant with Indian grid code requirement as on date.</p>
             <p data-aos="fade-down" data-aos-delay="400"><b>Disclaimers</b> - 2.7M130 - commercially available only in India.</p>
             <div class="banner-btn">
                <a data-fancybox data-src="#brochure-form" href="javascript:;">Download Brochure</a>
@@ -71,12 +71,12 @@
                <tbody class="table-body video-table">
                  <tr>
                   <th>
-                  <a href="https://youtu.be/eFdPLTZjHYw" data-fancybox="video" class="video-link">
+                   <a href="assets/images/senvion-2xm-3xm-video.mp4" data-fancybox="video" class="video-link">
     <div class="video-wrapper">
-        <img class="placeholder-img" src="assets/images/placeholder.webp" />
+        <img class="placeholder-img" src="assets/images/2-7m-placeholder-2.png" />
         <i class="fa-solid fa-play play-icon"></i>
     </div>
-         </a>                  
+</a>                  
       </tr>
                </tbody>
             </table>

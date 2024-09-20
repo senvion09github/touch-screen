@@ -72,12 +72,12 @@
                <tbody class="table-body video-table">
                  <tr>
                   <th>
-                  <a href="https://youtu.be/eFdPLTZjHYw" data-fancybox="video" class="video-link">
+                  <a href="assets/images/senvion-4xm.mp4" data-fancybox="video" class="video-link">
     <div class="video-wrapper">
-        <img class="placeholder-img" src="assets/images/placeholder.webp" />
+        <img class="placeholder-img" src="assets/images/4-2m-placeholder.png" />
         <i class="fa-solid fa-play play-icon"></i>
     </div>
-         </a>                  
+</a>         
       </tr>
                </tbody>
             </table>
