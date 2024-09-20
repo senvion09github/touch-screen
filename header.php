@@ -9,7 +9,7 @@
             <div class="col-12 p-0">
                 <nav class="main-nav">
                   <div class="logo"><a href="index.php">
-                  <img src="assets/images/logo.jpg" alt="">
+                  <img src="assets/images/logo.png" alt="">
                     </a>
                     </div>
 

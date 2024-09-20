@@ -401,3 +401,11 @@ table tbody tr td{width:5%;font-size:18px;}
 .project-1 img{width:100%;margin-bottom:15px;}
 .graphs-img img{width:100%;}
 /*****Project Section******/
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
