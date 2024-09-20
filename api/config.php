@@ -10,7 +10,7 @@ if(isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == 'localhost'){
 	$username = "root";
 	$password = '';
 	$dbname = "db_touch_screen";
-  $base_url = "http://localhost/touch-screen/";
+  $base_url = "http://localhost/web/touch-screen/";
 }
 else{
 	$servername = "localhost";
