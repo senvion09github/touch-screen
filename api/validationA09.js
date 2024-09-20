@@ -58,6 +58,7 @@ $('#brochure_downloadfrm').validate({
         mobile: {required: true, mobile: true},
         email: {required: true, validateEmail: true},
         company_name: {required: true},
+        countryCode: {required: true},
     },
     messages: {
         // agree: {
@@ -134,6 +135,7 @@ $('#brochure_view_form').validate({
     // debug: true,
     rules: {
         name: {required: true,lettersonly:true,maxlength: 100},
+        countryCode: {required: true},
         mobile: {required: true, mobile: true},
         email: {required: true, validateEmail: true},
     },
@@ -225,6 +227,7 @@ $('#brochure_c_view_form').validate({
     // debug: true,
     rules: {
         name: {required: true,lettersonly:true,maxlength: 100},
+        countryCode: {required: true},
         mobile: {required: true, mobile: true},
         email: {required: true, validateEmail: true},
     },

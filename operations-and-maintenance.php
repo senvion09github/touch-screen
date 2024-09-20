@@ -85,15 +85,15 @@
           <tbody>
              <tr>
                 <td>Total combined capacity under service</td>
-                <td>297</td>
-                <td>723.37</td>
-                <td>As of 15-May-2024</td>
+                <td>340</td>
+                <td>836</td>
+                <td>As of 15-Sept-2024</td>
              </tr>
               <tr>
                 <td>Service technicians</td>
-                <td>129</td>
+                <td>137</td>
                 <td></td>
-                <td>As of 15-May-2024</td>
+                <td>As of 15-Sept-2024</td>
              </tr>
              <tr>
                 <td>Markets with service presence*</td>
@@ -105,15 +105,15 @@
                 <td>Lost Time Injuries Rate (LTIR)</td>
                 <td>0</td>
                 <td></td>
-                <td>As of 15-May-2024</td>
+                <td>As of 15-Sept-2024</td>
 
              </tr>
-             <tr>
+             <!-- <tr>
                 <td>Lost Production Factor (LPF)</td>
                 <td><2</td>
                 <td></td>
                 <td>LPF is less than 2, as of 15-May-2024</td>
-             </tr>
+             </tr> -->
           </tbody>
             </table>
          </div>
