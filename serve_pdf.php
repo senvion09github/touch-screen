@@ -1,8 +1,10 @@
 <?php
+include 'config.php';
+
 session_start();
 
 // Define the base redirect path
-$baseRedirect = 'http://localhost/touch-screen/';
+$baseRedirect = $base_url;
 
 // Check the query parameter for pdf
 if (isset($_GET['pdf'])) {
@@ -11,7 +13,7 @@ if (isset($_GET['pdf'])) {
             // Check if the form was submitted
             if (isset($_SESSION['form_submitted']) && $_SESSION['form_submitted'] === true) {
                 // Redirect to the specified path for pdf = 1
-                header('Location: http://localhost/touch-screen/assets/pdf/flipbook-corporate/index.html');
+                header('Location: '.$base_url.'assets/pdf/flipbook-corporate/index.html');
                 exit;
             }
 
@@ -23,7 +25,7 @@ if (isset($_GET['pdf'])) {
             // Check if the form was submitted
             if (isset($_SESSION['form_submitted']) && $_SESSION['form_submitted'] === true) {
                 // Redirect to the specified path for pdf = 1
-                header('Location: http://localhost/touch-screen/assets/pdf/flipbook-source_2.7M130/');
+                header('Location: '.$base_url.'assets/pdf/flipbook-source_2.7M130/');
                 exit;
             }
 
@@ -35,7 +37,7 @@ if (isset($_GET['pdf'])) {
             // Check if the form was submitted
             if (isset($_SESSION['form_submitted']) && $_SESSION['form_submitted'] === true) {
                 // Redirect to the specified path for pdf = 2
-                header('Location: http://localhost/touch-screen/assets/pdf/flipbook-source_3.1M130/');
+                header('Location: '.$base_url.'assets/pdf/flipbook-source_3.1M130/');
                 exit;
             }
 
@@ -47,7 +49,7 @@ if (isset($_GET['pdf'])) {
             // Check if the form was submitted
             if (isset($_SESSION['form_submitted']) && $_SESSION['form_submitted'] === true) {
                 // Redirect to the specified path for pdf = 3
-                header('Location: http://localhost/touch-screen/assets/pdf/flipbook-source_4.2M160/');
+                header('Location: '.$base_url.'assets/pdf/flipbook-source_4.2M160/');
                 exit;
             }
 
@@ -59,7 +61,7 @@ if (isset($_GET['pdf'])) {
             // Check if the form was submitted
             if (isset($_SESSION['form_submitted']) && $_SESSION['form_submitted'] === true) {
                 // Redirect to the specified path for pdf = 4
-                header('Location: http://localhost/touch-screen/assets/pdf/flipbook-source_2.3M120/');
+                header('Location: '.$base_url.'assets/pdf/flipbook-source_2.3M120/');
                 exit;
             }
 
