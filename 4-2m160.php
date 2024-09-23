@@ -119,7 +119,7 @@
                </thead>
                <tbody class="table-body">
                   <tr><td>Wind Class</td><td>IEC S III C</td></tr>
-                  <tr><td>Type Testing</td><td>IEC61400-22/IECRE</td></tr>
+                  <tr><td>Type Testing</td><td>IEC 61400-22/IECRE</td></tr>
                </tbody>
             </table>
          </div>
@@ -160,7 +160,7 @@
                </thead>
                <tbody class="table-body">
                   <tr><td>Length (m)</td><td>78.5</td></tr>
-                  <tr><td>Profile Type</td><td>SE 63.7</td></tr>
+                  <tr><td>Profile Type</td><td>ReT 78.5</td></tr>
                   <tr><td>Material</td><td>GFRP</td></tr>
                </tbody>
             </table>
